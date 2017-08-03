@@ -85,19 +85,26 @@ body {
      font-family: 'Fascinate Inline', cursive; */
     
     font-family: 'Lobster', cursive;
-    line-height: 180px;
+    font-family: 'Monofett', cursive;
+    font-family: 'Pacifico', cursive; 
+    
+    line-height: auto;
+    margin-bottom: auto;
     /*     font-weight: bold; */
     
     font-size: 150px;
     -webkit-animation: bounce-top 0.9s both;
     -moz-animation: bounce-top 0.9s both;
     animation: bounce-top 0.9s both;
+    /* background-image:  */
 }
 .callout H4 {
     font-family: 'Lobster', cursive;
     font-family: 'Syncopate', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: .05em;
     line-height: 3px;
+    font-size: 40px;
 }
 #feelSpectrumText {
     letter-spacing: 1em;
@@ -254,14 +261,14 @@ body {
     padding: 0px;
     border-style: none;
     color: white;
-    font-size: 280px;
+    font-size: 150px;
     /*     max-width: 400px;
 min-width: 100px;
 height: 400px;
 min-height: 100px; */
 }
 #cameraFeel:hover {
-    color: navajowhite;
+    color: grey;
     /*     max-width: 400px;
 min-width: 100px;
 height: 400px;
@@ -272,7 +279,7 @@ min-height: 100px; */
     text-align: right;
 }
 #smCamera:hover {
-    color: navajowhite;
+    color: floralwhite;
     text-align: right;
 }
 /*#cameraFeel{
@@ -294,30 +301,30 @@ min-height: 100px; */
     margin-right: 50px;
     padding: 0px;
     color: white;
-    font-size: 280px;
+    font-size: 150px;
 
 }
 #pencilFeel:hover {
-    color: navajowhite;
+    color: grey;
     /*     max-width: 400px;
 min-width: 100px;
 height: 400px;
 min-height: 100px; */
 }
 #textCamera {
-    font-size: 30px;
+    font-size: 45px;
     color: white;
     padding-left: none;
     text-align: left;
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin-top: 20px;
 }
 #textPencil {
-    font-size: 30px;
+    font-size: 45px;
     color: white;
     padding-left: none;
     text-align: left;
-    font-family: 'Syncopate', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     margin-top: 20px;
 }
 #selfieCapture {
@@ -761,7 +768,7 @@ li #jan1 {} li #jan1:hover {
         float: right;
         width: 40%;
         height: 40%;
-        margin-right: 50px;
+        /* margin-right: 50px; */
         padding: 0px;
         color: white;
         font-size: 220px;
@@ -772,13 +779,13 @@ li #jan1 {} li #jan1:hover {
         padding-left: none;
         text-align: left;
         font-family: 'Syncopate', sans-serif;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }
     #cameraFeel {
         float: right;
         width: 40%;
         height: 40%;
-        margin-right: 50px;
+         margin-right: 150px; 
         padding: 0px;
         color: white;
         font-size: 220px;
@@ -789,7 +796,7 @@ li #jan1 {} li #jan1:hover {
         padding-left: none;
         text-align: left;
         font-family: 'Syncopate', sans-serif;
-        margin-top: 20px;
+        /* margin-top: 20px; */
     }
     #selfieFrame {
         padding: 0px;
