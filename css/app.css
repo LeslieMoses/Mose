@@ -53,7 +53,10 @@ input[type="textarea"]#loginIn::-webkit-input-placeholder {
 .sign {
     border: .1px solid white;
 } */
-
+element.style {
+    height: 935px;
+    z-index: 100;
+}
 .off-canvas-content {
     overflow: hidden;
 }
@@ -333,31 +336,8 @@ min-height: 100px; */
     font-family: 'Open Sans Condensed', sans-serif;
     /* margin-top: 20px; */
 }
-#selfieCapture {
-    clear: both;
-    position: relative;
-    /*     display: inline-block; */
-    
-    max-width: 600px;
-    min-width: 300px;
-    height: 400px;
-    min-height: 300px;
-    box-sizing: border-box;
-    padding: 30px 10px;
-    background-color: white;
-    border-radius: 40px;
-    margin: 20px 1px;
-    font-family: "Helvetica", sans-serif;
-    border: 7px solid #3e2b14;
-}
-/* .icons {
-    border-radius: 40px;
-    padding: 10px 40px;
-max-width: 500px;
-min-width: 300px;
-height: 400px;
-min-height: 300px;
-} */
+
+
 
 .feel {
     color: white;
@@ -374,6 +354,8 @@ min-height: 300px;
     margin-bottom: 2%;
     border-radius: 1%;
     padding: 20px;
+     font-family: 'Open Sans Condensed', sans-serif;
+     font-size: 24px;
 }
 
 .image-hover-wrapper a {
@@ -442,18 +424,22 @@ min-height: 300px;
 
 
 .image-hover-wrapper .image-hover-wrapper-banner {
-background-color: white;
-    color: dimgrey;
-    font-weight: 600;
+    background-color: #444;
+    color: white;
+    /* font-weight: 600; */
     left: 0;
-    padding: 0.5rem;
+    padding: 0.8rem;
     position: absolute;
-    top: 35%;
-    left: 95%;
-    width: 19%;
-    z-index: 10;
+    top: 7%;
+    left: 101%;
+    width: 15%;
+    z-index: 0;
     border-radius: 8px;
-    border: solid grey 3px;
+    text-align: center;
+}
+ .bold {
+font-weight: bolder;
+color: #888;
 }
 
 /* .visitLink {
@@ -536,19 +522,28 @@ margin: 40px 20px; */
 #yourTextColor {
     border-radius: 20%;
     height: 3%;
-    width: 3% background: white;
+    width: 3% ;background: white;
 }
 .question {
     position: relative;
     padding: 10px 0;
 }
 
+h2 {
+    font-size: 1.1875rem;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: white;
+    text-align: right;
+}
 
 .bgimg {
-    background-image: url('images/bgColorFire.jpg');
-    border-radius: 3px;
+    /* background-image: url('images/bgColorFire.jpg'); */
+    /* border-radius: 13px;
     padding: 2%;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
+    /* background-color:floralwhite; */
 }
 
 button {
