@@ -1,58 +1,4 @@
-/* div.screen {
-    opacity: .95;
-    background: #666;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
-    top: 0;
-    left: 0;
-    position: fixed;
-}
-#loginIn {
-    position: fixed;
-    font-size: 40px;
-    height: 350px;
-    width: 350px;
-    color: white;
-    background: #FF4136;
-    border: 15px solid white;
-    margin-bottom: 2px;
-    margin-top: 20px;
-    background: #FF4136;
-    border-radius: 10%;
-    text-align: right;
-    z-index: 15;
-    top: 50%;
-    left: 50%;
-    margin-top: -170px;
-    Negative half of height.
-    
-    margin-left: -175px;
-    Negative half of width.
-    
-    opacity: 100;
-    font-family: 'Comfortaa', cursive;
-    text-align: center;
-}
-input[type="textarea"]#loginIn::-webkit-input-placeholder {
-    font-size: 16px;
-    line-height: 3;
-    color: #666;
-    text-align: center;
-} */
-/* #username {
-    border-radius: 10%;
-    width: 90%;
-    border: 2px solid #FF4136;
-    font-size: 26px;
-    background: white;
-    color: black;
-    float: center;
-    padding: 10px;
-}
-.sign {
-    border: .1px solid white;
-} */
+
 element.style {
     height: 935px;
     z-index: 100;
@@ -144,9 +90,6 @@ body {
     border-radius: 40%;
     text-align: right;
 }
-/* #selfieColorButton:hover #selfieFrame {
-    color:black;
-} */
 
 #smCameraButton {
     margin-left: 5px;
@@ -289,17 +232,7 @@ min-height: 100px; */
     color: floralwhite;
     text-align: right;
 }
-/*#cameraFeel{
-        visibility: hidden;
-    }
-    
-    .camera:hover #cameraFeel {
-       visibility: visible;
-       font-size: 20px;
-        color:white;  
-    } 
 
-    */
 
 #pencilFeel {
     float: right;
@@ -337,15 +270,11 @@ min-height: 100px; */
     /* margin-top: 20px; */
 }
 
-
-
 .feel {
     color: white;
     font-size: 18px;
 }
 /* START CARO Pics */
-
-
 
 .image-hover-wrapper {
     position: relative;
@@ -451,6 +380,7 @@ color: #888;
 
 #offCanvasBottom1 {
     background: white;
+    z-index: 100;
 }
 /*form*/
 
@@ -578,8 +508,158 @@ button #getColorButton:focus {
 }
 #backTop {
     background: white color: #666;
+    COLOR:WHITE;
     margin-top: 10px;
+       
 }
+
+/* START SOCIAL */
+@charset "UTF-8";
+
+.rounded-social-buttons {
+  text-align: center;
+}
+
+.rounded-social-buttons .social-button {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  width: 2rem;
+  height: 2rem;
+  border: 0.125rem solid transparent;
+  padding: 0;
+  text-decoration: none;
+  text-align: center;
+  color: #fefefe;
+  font-size: 1.3rem;
+  font-weight: normal;
+  line-height: 1.5em;
+  border-radius: 1.6875rem;
+  transition: all 0.5s ease;
+  margin-right: 0.25rem;
+  margin-bottom: 0.25rem;
+}
+
+.boldRezHed {
+    color: black;
+
+   font-weight: bolder;
+   font-size: 25px; 
+}
+
+.fa-graduation-cap {
+    color:black;
+}
+
+.bullet{
+    color:black;
+}
+
+.rezSubHed {
+   color: black;
+   font-weight: bold;
+   font-size: 18px; 
+}
+
+/* .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
+  -webkit-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+} */
+
+.rounded-social-buttons .social-button.twitter {
+  background: #55acee;
+}
+
+.rounded-social-buttons .social-button.twitter:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
+  color: #55acee;
+  background: #fefefe;
+  border-color: #55acee;
+}
+
+.rounded-social-buttons .social-button.linkedin {
+  background: #007bb5;
+}
+
+.rounded-social-buttons .social-button.linkedin:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.linkedin:hover, .rounded-social-buttons .social-button.linkedin:focus {
+  color: #007bb5;
+  background: #fefefe;
+  border-color: #007bb5;
+}
+
+.rounded-social-buttons .social-button.github {
+  background: #000000;
+}
+
+.rounded-social-buttons .social-button.github:before {
+  font-family: "FontAwesome";
+  content: "";
+}
+
+.rounded-social-buttons .social-button.github:hover, .rounded-social-buttons .social-button.github:focus {
+  color: #000000;
+  background: #fefefe;
+  border-color: #000000;
+}
+
+
+
+/* END SOCIAL */
+
+
+.portfolio-resume-spacing {
+  margin-bottom: 2rem;
+}
+
+.portfolio-resume-wrapper {
+  padding: 2rem ;
+}
+
+.portfolio-resume-headshot {
+  margin-bottom: 1rem;
+  border-radius: 10%;
+}
+
+.portfolio-resume-header {
+  text-transform: uppercase;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e6e6e6;
+  font-weight: bold;
+  margin-bottom: 1rem;
+font-family: 'Open Sans Condensed', sans-serif;
+color:white;
+font-size: 50px;
+}
+
+
+.portfolio-resume-contact-info {
+  margin-bottom: 0.75rem;
+}
+
+.portfolio-resume-contact-info a {
+  color: #0a0a0a;
+}
+
+.portfolio-resume-contact-info .fa {
+    font-size: 1.4rem;
+    padding-right: 0.8rem;
+    vertical-align: middle;
+    color: white;
+}
+.rezDividers{
+    font-weight:bolder; font-size:20px
+}
+
 #yearButton {
     clear: both;
     text-align: center;
@@ -614,6 +694,15 @@ button #getColorButton:focus {
     height:100%;   
 }*/
 /* YEAR IN COLOR CALENDAR*/
+
+ .smile img{
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 60%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    border-radius: 30px;
+}
 
 ul {
     list-style-type: none;
