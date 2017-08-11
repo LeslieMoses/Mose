@@ -19,22 +19,12 @@ body {
     border: none;
     margin-top: 0px;
 }
-/* removes the border */
-
 .x-callout:before {
     display: none;
 }
-.callout H1 {
-    /*    font-family: 'Jura', sans-serif;
-     font-family: 'Passion One', cursive;
-     font-family: 'Comfortaa', cursive;    
- font-family: 'Syncopate', sans-serif;
- font-family: 'Gloria Hallelujah', cursive;
-     font-family: 'Architects Daughter', cursive;
-     font-family: 'Fascinate Inline', cursive; */
-    
-    font-family: 'Lobster', cursive;
-    font-family: 'Monofett', cursive;
+
+
+.leslieTitle {
     font-family: 'Pacifico', cursive; 
     
     line-height: auto;
@@ -42,11 +32,13 @@ body {
     /*     font-weight: bold; */
     
     font-size: 150px;
-    -webkit-animation: bounce-top 0.9s both;
-    -moz-animation: bounce-top 0.9s both;
-    animation: bounce-top 0.9s both;
-    /* background-image:  */
+} 
+
+.mosesTitle {
+font-family:'Monofett', cursive; 
+font-size:210px;
 }
+
 .callout H4 {
     font-family: 'Lobster', cursive;
     font-family: 'Syncopate', sans-serif;
@@ -95,55 +87,12 @@ body {
     margin-left: 5px;
     margin-top: -10px;
 }
-#takeSelfieText {
-    font-family: 'Syncopate', sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    color: #FF4136;
+
+.rezTitle{
+    font-family:'Monofett', cursive; 
+    font-size:100px; text-align:left; 
+    color:white;
 }
-#keepButton {
-    /*  float:left;*/
-    
-    border: .1px solid white;
-    font-family: 'Comfortaa', cursive;
-}
-#deleteButton {
-    /*float:left;*/
-    
-    border: .1px solid white;
-    font-family: 'Comfortaa', cursive;
-}
-#storeTxtButton {
-    /*float:left;*/
-    font-family: 'Comfortaa', cursive;
-    border: .1px solid white;
-}
-#selfieColorButton {
-    border: .1px solid white;
-    font-family: 'Comfortaa', cursive;
-}
-#selfieFrame {
-    font-size: 20px;
-    font-family: 'Comfortaa', cursive;
-    line-height: 13px;
-    padding: 20px;
-    height: 240px;
-    width: 80%;
-    color: #FF4136;
-    margin-left: 15px;
-    margin-top: 20px;
-    background: white;
-    border-radius: 10%;
-    text-align: right;
-    border: 20px solid navajowhite;
-    padding: 10px;
-}
-/*#giveText{
-        font-size: 30px;
-        color:#FF4136;
-        line-height: 6px;
-    
-    }*/
 
 #sayText {
     font-size: 20px;
@@ -561,12 +510,6 @@ button #getColorButton:focus {
    font-size: 18px; 
 }
 
-/* .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
-  -webkit-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
-} */
-
 .rounded-social-buttons .social-button.twitter {
   background: #55acee;
 }
@@ -734,64 +677,6 @@ ul {
     padding-top: 10px;
     color: #FF4136;
 }
-
-.dekCalendar li {
-    display: inline-block;
-    box-sizing: border-box;
-    width: 13.6%;
-    color: white;
-    text-align: center;
-    font-family: sans-serif;
-}
-.days {
-    padding: 10px;
-    background: #FF4136;
-    margin: 0;
-    font-family: sans-serif;
-}
-.days li {
-    list-style-type: none;
-    display: inline-block;
-    box-sizing: border-box;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    margin-bottom: .5px;
-    font-size: 12px;
-    color: white;
-    border: 1px white solid;
-    border-radius: 20%;
-}
-#boxesHere li {
-    list-style-type: none;
-    display: inline-block;
-    box-sizing: border-box;
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    margin-bottom: .5px;
-    margin-top: .5px;
-    font-size: 12px;
-    background: #FF4136;
-    border: 1px white solid;
-    border-radius: 20%;
-    color: white;
-}
-.days li .monthy {
-    list-style-type: none;
-    display: inline-block;
-    background: white;
-    color: black;
-    color: #FF4136;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Syncopate', sans-serif;
-    margin-bottom: .5px;
-    text-align: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 18%;
-}
 li:hover {
     box-shadow: 1px 1px white, 2px 2px white, 3px 3px white;
     -webkit-transform: translateX(-3px);
@@ -808,256 +693,65 @@ li #jan1 {} li #jan1:hover {
     color: #FF4136;
     text-align: center;
 }
-/* Add media queries for smaller screens */
-/* --------------------------------------Lg---------- */
+/* Media queries */
+    /* ---------------------------------Sm---------- */
+    /* SMALL only */
+@media screen and (max-width: 39.9375em) {
+    /* @media screen and (max-width: 320px) { */
 
-@media screen and (max-width: 768px) {
-    .weekdays li,
-    .days li {
-        width: 13.1%;
-    }
-    .callout H1 {
-        font-family: 'Lobster', cursive;
-        font-size: 75px;
-        line-height: 100px;
-    }
-    #pencilFeel {
-        float: right;
-        width: 40%;
-        height: 40%;
-        /* margin-right: 50px; */
-        padding: 0px;
-        color: white;
-        font-size: 200px;
-    }
-    #textPencil {
-        font-size: 18px;
-        color: white;
-        padding-left: none;
-        text-align: left;
-        font-family: 'Syncopate', sans-serif;
-        /* margin-top: 20px; */
-    }
-    #cameraFeel {
-        float: right;
-        width: 40%;
-        /* height: 40%; */
-         margin-right: 150px; 
-        padding: 0px;
-        color: white;
-        font-size: 200px;
-    }
+.callout.large {
+    background: #36c3e5;
+    background: #FF4136;
+    padding: 1px;
+    color: white;
+    text-align: center;
+    border: none;
+    margin-top: 0px;
+}
+.callout H4 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: .05em;
+    line-height: 23px;
+    font-size: 35px;
+}
+
+      h1  .leslieTitle {
+    font-family: 'Pacifico', cursive;    
+    line-height: auto;
+    margin-bottom: auto;
+    font-size: 55px;
+      text-align: center;
+
+} 
+        .mosesTitle {
+            font-size: 52px;
+            line-height: 10px;
+        }
+
+        img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 25%;
+    height: 35%;
+    -ms-interpolation-mode: bicubic;
+}
+
+.rezTitle{
+    font-family:'Monofett', cursive; 
+    font-size:80px; 
+    text-align:left; 
+    color:white;
+}
+
     #textCamera {
         font-size: 18px;
         color: white;
         padding-left: none;
-        text-align: left;
-        font-family: 'Syncopate', sans-serif;
+        text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
         /* margin-top: 20px; */
-    }
-    #selfieFrame {
-        padding: 0px;
-        height: 170px;
-        width: 250px;
-        color: #FF4136;
-        margin-bottom: 0px;
-        margin-top: 5px;
-        margin-left: -20px;
-        background: white;
-        border-radius: 10%;
-        text-align: right;
-        border: 10px solid navajowhite;
-        padding: 0px;
-    }
-    #selfieCapture {
-        clear: both;
-        position: relative;
-        /*     display: inline-block; */
-        
-        height: 200px;
-        padding: 10px;
-        background-color: white;
-        border-radius: 40px;
-        margin: 1px;
-        font-family: "Helvetica", sans-serif;
-        border: 7px solid #3e2b14;
-    }
-    #selfieInvite {
-        font-size: 30px;
-        font-family: 'Comfortaa', cursive;
-        line-height: 3px;
-        color: #FF4136;
-        margin-bottom: 0px;
-        margin-top: -70px;
-        background: white;
-        border-radius: 40%;
-        text-align: right;
-    }
-    .small-12 {
-        padding: 0px;
-    }
-    #storeTxtButton {
-        /*float:left;*/
-        
-        font-size: 12px;
-        border: .1px solid white;
-        padding: 12px;
-        font-family: 'Comfortaa', cursive;
-    }
-    #selfieColorButton {
-        /* line-height: 18px; */
-        /*     border: .1px solid white; */
-        
-        font-size: 12px;
-        padding: 10px;
-        font-family: 'Comfortaa', cursive;
-    }
-    #keepButton {
-        /*  float:left;*/
-        
-        border: .1px solid white;
-        font-size: 12px;
-        padding: 12px;
-        font-family: 'Comfortaa', cursive;
-    }
-    #deleteButton {
-        /*float:left;*/
-        
-        border: .1px solid white;
-        font-size: 12px;
-        padding: 12px;
-        font-family: 'Comfortaa', cursive;
-    }
-    .medium-2 {
-        width: 10%;
-        padding: 0px;
-    }
-    #talkInvite {
-        font-size: 25px;
-        font-family: 'Comfortaa', cursive;
-        line-height: 3px;
-        color: #FF4136;
-        margin-bottom: 2px;
-        margin-top: 20px;
-        background: white;
-        border-radius: 40%;
-    }
-    #inputText {
-        appearance: none;
-        background-color: none;
-        border: 1px solid #FF4136;
-        line-height: 0;
-        font-size: 24px;
-        width: 100%;
-        box-sizing: border-box;
-        padding: 15px 15px;
-        border-radius: 60px;
-        color: white;
-        font-weight: 100;
-        letter-spacing: 0.01em;
-        position: relative;
-        top: 60px;
-        z-index: 1;
-    }
-    /* --------------------------------Md---------- */
-    
-    @media screen and (max-width: 480px) {
-        .weekdays li, .days li {
-            width: 12.5%;
-        }
-        .days li .active {
-            padding: 2px;
-        }
-        #textPencil {
-            font-size: 18px;
-            color: white;
-            padding-left: none;
-            text-align: center;
-            font-family: 'Syncopate', sans-serif;
-            margin-top: 20px;
-            margin-left: 10px;
-        }
+    } 
 
-        #textCamera {
-            text-align: center;
-        }
-        #selfieCapture {
-            clear: both;
-            position: relative;
-            /*     display: inline-block; */
-            
-            height: 200px;
-            width: 450px;
-            padding: 10px;
-            background-color: white;
-            border-radius: 40px;
-            margin: 1px;
-            font-family: "Helvetica", sans-serif;
-            border: 7px solid #3e2b14;
-        }
-        #storeTxtButton {
-            /*float:left;*/
-            
-            font-size: 22px;
-            padding: 12px;
-            float: center;
-            line-height: 20px;
-            border: none;
-        }
-        #selfieColorButton {
-            /* line-height: 18px; */
-            /*     border: .1px solid white; */
-            
-            font-size: 22px;
-            line-height: 20px;
-            padding: 12px;
-            border: #FF4136;
-        }
-        #keepButton {
-            /*  float:left;*/
-            
-            float: left;
-            line-height: 20px;
-            font-size: 22px;
-            padding: 12px;
-            border: none;
-        }
-        #deleteButton {
-            font-size: 22px;
-            padding: 12px;
-            float: left;
-            line-height: 20px;
-            border: none;
-        }
-        .small-12 {
-            padding: 0px;
-            width: 100%;
-        }
-        button {
-            margin-top: 0px;
-            letter-spacing: .01em;
-        }
-        #selfieFrame {
-            padding: 20px;
-            height: 240px;
-            width: 75%;
-            margin-left: 30px;
-        }
-
-        #pencilColor {
-            margin-right: 190px;
-        }
-    }
-    /* ---------------------------------Sm---------- */
-    
-    @media screen and (max-width: 320px) {
-        .weekdays li, .days li {
-            width: 12.2%;
-        }
-        .callout H4 {
-            font-size: 20px;
-            line-height: 25px;
-        }
         #pencilFeel {
             float: right;
             width: 40%;
@@ -1116,26 +810,7 @@ li #jan1 {} li #jan1:hover {
             border: 20px solid navajowhite;
             padding: 10px;
         }
-        form {
-            clear: both;
-            position: relative;
-            display: inline-block;
-            max-width: 500px;
-            min-width: 300px;
-            height: 400px;
-            min-height: 300px;
-            box-sizing: border-box;
-            padding: 30px 20px;
-            background-color: white;
-            border-radius: 40px;
-            margin-left: -18px;
-            font-family: "Helvetica", sans-serif;
-            font-weight: light;
-            text-align: center;
-            -webkit-font-smoothing: antialiased;
-            border: 6px solid #3e2b14;
-            padding: 10px;
-        }
+       
         #pencilColor {
             font-size: 220px;
             float: right;
@@ -1144,5 +819,163 @@ li #jan1 {} li #jan1:hover {
             margin-left: 30px;
             padding: 0px;
             color: white;
+        }
+    }
+
+
+
+
+
+
+
+
+
+/* --------------------------------------Lg---------- */
+
+@media screen and (max-width: 768px) {
+    .weekdays li,
+    .days li {
+        width: 13.1%;
+    }
+    .callout H1 {
+        font-family: 'Lobster', cursive;
+        font-size: 45px;
+        line-height: 100px;
+    }
+    #pencilFeel {
+        float: right;
+        width: 40%;
+        height: 40%;
+        /* margin-right: 50px; */
+        padding: 0px;
+        color: white;
+        font-size: 100px;
+    }
+    #textPencil {
+        font-size: 48px;
+        color: white;
+        padding-left: none;
+        text-align: center;
+            font-family: 'Open Sans Condensed', sans-serif;
+        /* margin-top: 20px; */
+    }
+    #cameraFeel {
+        float: right;
+        width: 40%;
+        /* height: 40%; */
+         margin-right: 150px; 
+        padding: 0px;
+        color: white;
+        font-size: 100px;
+    }
+    #textCamera {
+        font-size: 48px;
+        color: white;
+        padding-left: none;
+        text-align: left;
+        font-family: 'Open Sans Condensed', sans-serif;
+        /* margin-top: 20px; */
+    }
+    #selfieFrame {
+        padding: 0px;
+        height: 170px;
+        width: 250px;
+        color: #FF4136;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        margin-left: -20px;
+        background: white;
+        border-radius: 10%;
+        text-align: right;
+        border: 10px solid navajowhite;
+        padding: 0px;
+    }
+    #selfieCapture {
+        clear: both;
+        position: relative;
+        /*     display: inline-block; */
+        
+        height: 200px;
+        padding: 10px;
+        background-color: white;
+        border-radius: 40px;
+        margin: 1px;
+        font-family: "Helvetica", sans-serif;
+        border: 7px solid #3e2b14;
+    }
+    #selfieInvite {
+        font-size: 30px;
+        font-family: 'Comfortaa', cursive;
+        line-height: 3px;
+        color: #FF4136;
+        margin-bottom: 0px;
+        margin-top: -70px;
+        background: white;
+        border-radius: 40%;
+        text-align: right;
+    }
+    .small-12 {
+        padding: 0px;
+ 
+ 
+    .medium-2 {
+        width: 10%;
+        padding: 0px;
+    }
+ 
+    /* --------------------------------Md---------- */
+    
+    @media screen and (max-width: 480px) {
+        .weekdays li, .days li {
+            width: 12.5%;
+        }
+        .days li .active {
+            padding: 2px;
+        }
+        #textPencil {
+            font-size: 48px;
+            color: white;
+            padding-left: none;
+            text-align: center;
+                font-family: 'Open Sans Condensed', sans-serif;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        #textCamera {
+            text-align: center;
+        }
+        #selfieCapture {
+            clear: both;
+            position: relative;
+            /*     display: inline-block; */
+            
+            height: 200px;
+            width: 450px;
+            padding: 10px;
+            background-color: white;
+            border-radius: 40px;
+            margin: 1px;
+            font-family: "Helvetica", sans-serif;
+            border: 7px solid #3e2b14;
+        }
+ 
+        .small-12 {
+            padding: 0px;
+            width: 100%;
+        }
+        button {
+            margin-top: 0px;
+            letter-spacing: .01em;
+        }
+        #selfieFrame {
+            padding: 20px;
+            height: 240px;
+            width: 75%;
+            margin-left: 30px;
+        }
+
+        #pencilColor {
+            margin-right: 190px;
         }
     }
