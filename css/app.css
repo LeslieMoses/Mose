@@ -26,7 +26,6 @@ body {
 
 .leslieTitle {
     font-family: 'Pacifico', cursive; 
-    
     line-height: auto;
     margin-bottom: auto;
     /*     font-weight: bold; */
@@ -94,6 +93,16 @@ font-size:210px;
     color:white;
 }
 
+.devHed{
+    font-family: 'Pacifico', cursive;
+    font-size:70px;
+}
+
+.designHed{
+    font-family:'Monofett', cursive; 
+    font-size:100px; 
+    text-align:right;
+}
 #sayText {
     font-size: 20px;
     color: #666;
@@ -205,7 +214,7 @@ min-height: 100px; */
     color: white;
     font-weight: bolder;
     padding-left: none;
-    text-align: center;
+    text-align: right;
     font-family: 'Open Sans Condensed', sans-serif;
     /* margin-top: 20px; */
 }
@@ -456,8 +465,8 @@ button #getColorButton:focus {
     background-color: #FF4136;
 }
 #backTop {
-    background: white color: #666;
-    COLOR:WHITE;
+    background: #666 ;
+    color: white;
     margin-top: 10px;
        
 }
@@ -556,7 +565,6 @@ button #getColorButton:focus {
 }
 
 
-
 /* END SOCIAL */
 
 
@@ -651,42 +659,6 @@ ul {
     list-style-type: none;
     box-sizing: border-box;
 }
-.yearHeader {
-    padding: 0px;
-    width: 100%;
-    background: white;
-}
-.yearHeader ul {
-    margin: 0;
-    padding: 0;
-}
-.yearHeader ul li {
-    color: black;
-    font-size: 20px;
-    text-transform: uppercase;
-    letter-spacing: 3px;
-    box-sizing: border-box;
-}
-.yearHeader .prev {
-    float: left;
-    padding-top: 10px;
-    color: #FF4136;
-}
-.yearHeader .next {
-    float: right;
-    padding-top: 10px;
-    color: #FF4136;
-}
-li:hover {
-    box-shadow: 1px 1px white, 2px 2px white, 3px 3px white;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-    color: green;
-}
-li #jan1 {} li #jan1:hover {
-    color: yellow;
-    background: black;
-}
 #yearInColorHead {
     font-family: 'Syncopate', sans-serif;
     font-size: 30px;
@@ -696,79 +668,108 @@ li #jan1 {} li #jan1:hover {
 /* Media queries */
     /* ---------------------------------Sm---------- */
     /* SMALL only */
+    /* 638px */
 @media screen and (max-width: 39.9375em) {
     /* @media screen and (max-width: 320px) { */
-
 .callout.large {
-    background: #36c3e5;
-    background: #FF4136;
-    padding: 1px;
-    color: white;
-    text-align: center;
-    border: none;
-    margin-top: 0px;
+    padding-top: 1.5rem;
+    padding-right: .5rem;
+    padding-bottom: .5rem;
+    padding-left: .5rem;
 }
+
 .callout H4 {
     font-family: 'Open Sans Condensed', sans-serif;
-    letter-spacing: .05em;
-    line-height: 23px;
-    font-size: 35px;
+    line-height: 43px;
+    font-size: 29px;
+    text-align: left;
+    color: darkslategray;
+    font-weight:bold;
 }
 
-      h1  .leslieTitle {
+   .leslieTitle {
     font-family: 'Pacifico', cursive;    
-    line-height: auto;
-    margin-bottom: auto;
+    line-height: 45px;
+    margin-bottom: 20px;
+    margin-right: 10px;
     font-size: 55px;
-      text-align: center;
+      text-align: right;
+      display: block;
 
 } 
-        .mosesTitle {
-            font-size: 52px;
-            line-height: 10px;
+  .mosesTitle {
+            font-size: 75px;
+            line-height: 20px;
+            margin-left:1px;
+            display: block;
         }
 
-        img {
+  #bluePic {
     display: inline-block;
-    vertical-align: middle;
-    max-width: 25%;
-    height: 35%;
-    -ms-interpolation-mode: bicubic;
+     vertical-align: middle;
+     max-width: 28%;
+   height: 45%;
+  -ms-interpolation-mode: bicubic;
 }
 
 .rezTitle{
     font-family:'Monofett', cursive; 
-    font-size:80px; 
+    font-size:75px; 
     text-align:left; 
     color:white;
 }
 
+
+.devHed {
+    font-family: 'Pacifico', cursive;
+    font-size:50px;
+}
+
+
+.designHed{
+    font-family:'Monofett', cursive; 
+    font-size:70px; 
+    text-align:right;
+}
+
     #textCamera {
-        font-size: 18px;
+        font-size: 30px;
         color: white;
         padding-left: none;
+        text-align: right;
+    font-family: 'Open Sans Condensed', sans-serif;
+        /* margin-top: 20px; */
+    } 
+
+    #textPencil{
+        font-size: 30px;
+        color: white;
+        padding-left: none;
+        margin-left: 20px;
         text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
         /* margin-top: 20px; */
     } 
 
         #pencilFeel {
-            float: right;
+            float: center;
             width: 40%;
             height: 40%;
-            margin-right: 100px;
+            /* margin-right: 100px; */
             padding: 0px;
             color: white;
-            font-size: 180px;
+            font-size: 100px;
+            display: block;
         }
         #cameraFeel {
             float: center;
             width: 40%;
             height: 40%;
-            margin-right: 150px;
             padding: 0px;
+            margin-right: 50px;
             color: white;
-            font-size: 180px;
+            font-size: 100px;
+            display: block;
         }
         #selfieFrame {
             padding: 0px;
@@ -823,109 +824,10 @@ li #jan1 {} li #jan1:hover {
     }
 
 
-
-
-
-
-
-
-
-/* --------------------------------------Lg---------- */
-
-@media screen and (max-width: 768px) {
-    .weekdays li,
-    .days li {
-        width: 13.1%;
-    }
-    .callout H1 {
-        font-family: 'Lobster', cursive;
-        font-size: 45px;
-        line-height: 100px;
-    }
-    #pencilFeel {
-        float: right;
-        width: 40%;
-        height: 40%;
-        /* margin-right: 50px; */
-        padding: 0px;
-        color: white;
-        font-size: 100px;
-    }
-    #textPencil {
-        font-size: 48px;
-        color: white;
-        padding-left: none;
-        text-align: center;
-            font-family: 'Open Sans Condensed', sans-serif;
-        /* margin-top: 20px; */
-    }
-    #cameraFeel {
-        float: right;
-        width: 40%;
-        /* height: 40%; */
-         margin-right: 150px; 
-        padding: 0px;
-        color: white;
-        font-size: 100px;
-    }
-    #textCamera {
-        font-size: 48px;
-        color: white;
-        padding-left: none;
-        text-align: left;
-        font-family: 'Open Sans Condensed', sans-serif;
-        /* margin-top: 20px; */
-    }
-    #selfieFrame {
-        padding: 0px;
-        height: 170px;
-        width: 250px;
-        color: #FF4136;
-        margin-bottom: 0px;
-        margin-top: 5px;
-        margin-left: -20px;
-        background: white;
-        border-radius: 10%;
-        text-align: right;
-        border: 10px solid navajowhite;
-        padding: 0px;
-    }
-    #selfieCapture {
-        clear: both;
-        position: relative;
-        /*     display: inline-block; */
-        
-        height: 200px;
-        padding: 10px;
-        background-color: white;
-        border-radius: 40px;
-        margin: 1px;
-        font-family: "Helvetica", sans-serif;
-        border: 7px solid #3e2b14;
-    }
-    #selfieInvite {
-        font-size: 30px;
-        font-family: 'Comfortaa', cursive;
-        line-height: 3px;
-        color: #FF4136;
-        margin-bottom: 0px;
-        margin-top: -70px;
-        background: white;
-        border-radius: 40%;
-        text-align: right;
-    }
-    .small-12 {
-        padding: 0px;
- 
- 
-    .medium-2 {
-        width: 10%;
-        padding: 0px;
-    }
- 
     /* --------------------------------Md---------- */
-    
-    @media screen and (max-width: 480px) {
+/* Medium and up */
+/* 640px */
+@media screen and (min-width: 40em)  {
         .weekdays li, .days li {
             width: 12.5%;
         }
@@ -979,3 +881,69 @@ li #jan1 {} li #jan1:hover {
             margin-right: 190px;
         }
     }
+
+/* --------------------------------Lg---------- */
+/* Large only */
+/* 64em--74em = 1064px to 1198px*/
+@media screen and (min-width: 64em) and (max-width: 74.9375em)
+{
+    .weekdays li,
+    .days li {
+        width: 13.1%;
+    }
+    .leslieTitle {
+        font-family: 'Pacifico', cursive;  
+        font-size: 45px;
+        line-height: 100px;
+    }
+
+    #pencilFeel {
+        float: right;
+        width: 40%;
+        height: 40%;
+        /* margin-right: 50px; */
+        padding: 0px;
+        color: white;
+        font-size: 100px;
+    }
+    #textPencil {
+        font-size: 48px;
+        color: white;
+        padding-left: none;
+        text-align: center;
+            font-family: 'Open Sans Condensed', sans-serif;
+        /* margin-top: 20px; */
+    }
+    #cameraFeel {
+        float: right;
+        width: 40%;
+        /* height: 40%; */
+         margin-right: 150px; 
+        padding: 0px;
+        color: white;
+        font-size: 100px;
+    }
+    #textCamera {
+        font-size: 48px;
+        color: white;
+        padding-left: none;
+        text-align: left;
+        font-family: 'Open Sans Condensed', sans-serif;
+        /* margin-top: 20px; */
+    }
+ 
+   img .portfolio-resume-headshot {
+    height: 0px;
+}
+
+.small-12 {
+        padding: 0px;
+}
+ 
+    .medium-2 {
+        width: 10%;
+        padding: 0px;
+    }
+ 
+} 
+
