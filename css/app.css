@@ -482,14 +482,14 @@ button #getColorButton:focus {
   display: inline-block;
   position: relative;
   cursor: pointer;
-  width: 2rem;
-  height: 2rem;
+  width: 3rem;
+  height: 3rem;
   border: 0.125rem solid transparent;
   padding: 0;
   text-decoration: none;
   text-align: center;
   color: #fefefe;
-  font-size: 1.3rem;
+  font-size: 2rem;
   font-weight: normal;
   line-height: 1.5em;
   border-radius: 1.6875rem;
@@ -719,19 +719,83 @@ ul {
     color:white;
 }
 
-
 .devHed {
     font-family: 'Pacifico', cursive;
     font-size:50px;
+    margin-right: 10px;
+    line-height: 70px;
 }
-
 
 .designHed{
-    font-family:'Monofett', cursive; 
-    font-size:70px; 
-    text-align:right;
+    font-family: 'Monofett', cursive;
+    font-size: 50px;
+    text-align: left;
+    margin-right: 30px;
+    line-height: initial;
 }
 
+.image-hover-wrapper {
+    position: relative;
+    background: white;
+    margin-bottom: 2%;
+    border-radius: 1%;
+    padding: 5px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 24px;
+    display:inline-block;
+}
+ #backTop {
+    background: #FF4136;
+    color: white;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+.webImage{
+    /* display: inline-block; */
+     vertical-align: middle;
+     max-width: 90%;
+   height: 45%;
+  -ms-interpolation-mode: bicubic;
+  display: block;
+
+}
+
+.image-hover-wrapper .image-hover-wrapper-banner {
+
+    display: none;
+}
+.image-hover-wrapper a .image-hover-wrapper-reveal p {
+    /* bottom: 20px; */
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 90%;
+    left: 30%;
+    color: black;
+    background: white;
+    border: #FF4136 5px solid;
+    border-radius: 14px;
+    padding: 2%;
+    text-align: center;
+    width: 60%;
+}
+.hideDescribe{
+  display: none;
+}
+
+.smText{
+        color: white;
+            font-family: 'Open Sans Condensed', sans-serif;
+            font-size:12px;
+    position: absolute;
+    top: 1%;
+    left: 30%;
+    padding: 2%;
+    text-align: center;
+    width: 60%;
+
+}
     #textCamera {
         font-size: 30px;
         color: white;
