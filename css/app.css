@@ -885,6 +885,13 @@ ul {
             padding: 0px;
             color: white;
         }
+
+        #yearInColorHead {
+    font-family: 'Syncopate', sans-serif;
+    font-size: 18px;
+    color: #FF4136;
+    text-align: center;
+}
     }
 
 
@@ -925,7 +932,18 @@ ul {
             font-family: "Helvetica", sans-serif;
             border: 7px solid #3e2b14;
         }
- 
+ .image-hover-wrapper .image-hover-wrapper-banner {
+
+    display: none;
+}
+.image-hover-wrapper {
+    margin: 3%;
+}
+
+#backTop {
+    background: #FF4136;
+    margin-top: 5px;
+}
         .small-12 {
             padding: 0px;
             width: 100%;
