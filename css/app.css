@@ -795,6 +795,14 @@ display: block;
   display: none;
 }
 
+.fa-share{
+color:#FF4136;
+/* border: black solid 2px; */
+z-index: 2;
+size: 20px;
+}
+
+
 .visitSmallTxt{
     font-size:30px;
 }
