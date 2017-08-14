@@ -959,7 +959,7 @@ size: 20px;
         }
  .image-hover-wrapper .image-hover-wrapper-banner {
 
-    display: none;
+    /* display: none; */
 }
 .image-hover-wrapper {
     margin: 3%;
