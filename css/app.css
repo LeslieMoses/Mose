@@ -117,9 +117,6 @@ font-size:210px;
     color: white;
 }
 
-.paperLink a {
-    color:black;
-}
 
 #pencilColor:hover {
     color: navajowhite;
@@ -828,7 +825,7 @@ size: 20px;
         font-size: 29px;
         color: white;
         padding-left: none;
-        text-align: right;
+        text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
         /* margin-top: 20px; */
     } 
@@ -1040,7 +1037,7 @@ size: 20px;
         font-size: 48px;
         color: white;
         padding-left: none;
-        text-align: left;
+        text-align: center;
         font-family: 'Open Sans Condensed', sans-serif;
         /* margin-top: 20px; */
     }
