@@ -95,7 +95,7 @@ font-size:210px;
   }
   .social-links a {
     font-weight: bold;
-     color: white;
+     color: white !important;
   }
   .social-links .columns {
     margin: 1rem 0;
