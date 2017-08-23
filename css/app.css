@@ -91,9 +91,11 @@ font-size:210px;
     display: block;
     padding-right: 0;
     padding-bottom: 0.5rem;
+     background: #FF4136;
   }
   .social-links a {
     font-weight: bold;
+     color: white;
   }
   .social-links .columns {
     margin: 1rem 0;
