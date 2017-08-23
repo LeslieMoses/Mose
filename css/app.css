@@ -68,7 +68,8 @@ font-size:210px;
 .social-links a {
   color: white;
   font-size: 2.2rem;
-      font-family: 'Open Sans Condensed', sans-serif;
+      font-family: 'Open Sans Condensed', sans-serif;      
+  background: #FF4136;
 }
 
 .social-links i.fa {
