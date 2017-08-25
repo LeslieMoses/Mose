@@ -40,8 +40,6 @@ font-size:210px;
 }
 
 .callout H4 {
-    font-family: 'Lobster', cursive;
-    font-family: 'Syncopate', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
     letter-spacing: .05em;
     line-height: 3px;
@@ -679,8 +677,9 @@ font-size: 50px;
         font-family: 'Pacifico', cursive; 
     font-size: 35px;
     font-weight: lighter;
-        margin-top: -20px;
+        margin-top: 2px;
         padding:5px;
+        
 }
 
 
@@ -688,6 +687,29 @@ font-size: 50px;
     color: white;
     background-color: #FF4136;
     border: 1px solid grey;
+}
+
+
+
+
+
+
+
+.blogTitle{
+font-family: 'Open Sans Condensed', sans-serif;
+    letter-spacing: .05em;
+    line-height: 3px;
+    font-size: 40px;
+      text-align: right;
+
+}
+
+.blogTitle2{
+font-family:'Monofett', cursive; 
+font-size:110px;
+
+      text-align: right;
+      display: block;
 }
 /*ALMOST WORKS HERE HERE */
 /*#yearButton:hover */
@@ -1123,8 +1145,9 @@ h3 {
         font-family: 'Pacifico', cursive; 
     font-size: 55px;
     font-weight: lighter;
-        margin-top: -20px;
+        margin-top: 2px;
         padding:5px;
+        line-height: 0;
 }
 
 #offCanvasBottom1 {
