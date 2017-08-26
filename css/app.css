@@ -389,11 +389,7 @@ color: #888;
 /* END CARO Pics  */
 
 #offCanvasBottom1 {
-    background: white;
-    z-index: 100;
-    position: fixed;
-    top: 0%;
-    margin-top: 0px;
+    background: white; 
 }
 /*form*/
 
@@ -669,16 +665,16 @@ font-size: 50px;
 #yearButton {
     clear: both;
     text-align: center;
+    line-height: 0px;
     visibility: visible;
     float: left;
     background: white;
     color: #FF4136;
+    letter-spacing: none;
+    margin-top: 2px;
     border: .5px solid #666;
         font-family: 'Pacifico', cursive; 
-    font-size: 35px;
-    font-weight: lighter;
-        margin-top: 2px;
-        padding:5px;
+
         
 }
 
@@ -688,11 +684,6 @@ font-size: 50px;
     background-color: #FF4136;
     border: 1px solid grey;
 }
-
-
-
-
-
 
 
 .blogTitle{
@@ -711,19 +702,7 @@ font-size:110px;
       text-align: right;
       display: block;
 }
-/*ALMOST WORKS HERE HERE */
-/*#yearButton:hover */
-/*.off-canvas-wrapper .position-bottom {
 
-     height:100%;   
-} 
-*/
-/*MY VERSION.off-canvas-wrapper 
-
-    STACKOVERFLOW SUGGESTIONS 
-    .off-canvas-wrap,.inner-wrap{
-    height:100%;   
-}*/
 /* YEAR IN COLOR CALENDAR*/
 
  .smile img{
@@ -1139,6 +1118,7 @@ h3 {
     text-align: center;
     visibility: visible;
     float: left;
+    line-height: 0px;
     background: white;
     color: #FF4136;
     border: .5px solid #666;
@@ -1146,16 +1126,10 @@ h3 {
     font-size: 55px;
     font-weight: lighter;
         margin-top: 2px;
-        padding:5px;
-        line-height: 0;
 }
 
 #offCanvasBottom1 {
-    background: white;
-    z-index: 100;
-    position: fixed;
-    top: 10%;
-    margin-top: -20px;
+    background: white; 
 }
  .image-hover-wrapper .image-hover-wrapper-banner {
 
