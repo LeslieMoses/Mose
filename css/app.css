@@ -651,6 +651,9 @@ font-size:110px;
     /* 638px */
 @media screen and (max-width: 39.9375em) {
     /* @media screen and (max-width: 320px) { */
+element.style {
+    height: 100%;
+}
 .callout.large {
     padding-top: 1.5rem;
     padding-right: .5rem;
@@ -886,7 +889,15 @@ size: 20px;
 }
 
 element.style {
-    height: 563px;
+    height: 700px;
+}
+
+#yearButton {
+    border: none;
+}
+
+a#yearButton {
+    border: none;
 }
     }
 

@@ -2874,7 +2874,7 @@ select {
 
 .off-canvas {
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   transition: transform 0.5s ease;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
