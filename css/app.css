@@ -376,14 +376,12 @@ color: #888;
     background: white; 
 }
  .fa-smile-o{
- color: #FF4136;
- margin-top: -16px;
+ color: #FF4136; 
  
 }
 
 .fa-smile-o:hover{
- color: darksalmon;
-     margin-top: -16px;
+ color: darksalmon; 
 }
 
 #yourTextColor {
@@ -590,7 +588,7 @@ font-size: 50px;
     font-weight:bolder; font-size:20px
 }
 
-.button #yearButton {
+ #yearButton {
     /* line-height: 0px; */
     visibility: visible;
     float: left;
@@ -598,7 +596,7 @@ font-size: 50px;
     color: #FF4136;
     letter-spacing: none;
         font-family: 'Pacifico', cursive; 
-          margin-top: -16px;
+          margin-top: -12px;
       
 }
 
@@ -1042,9 +1040,8 @@ h3 {
     font-size: 39px;
     border:none;
           margin-top: 2px; 
-            position: absolute;
+    position: absolute;
     top: 0%; 
-    margin-top:-16px;
 }
  
 
@@ -1054,13 +1051,11 @@ h3 {
 
 .fa-smile-o{
  color: #FF4136;
- margin-top: -16px;
  
 }
 
 .fa-smile-o:hover{
- color: darksalmon;
-     margin-top: -16px;
+ color: darksalmon; 
 }
  .image-hover-wrapper .image-hover-wrapper-banner {
 
@@ -1130,8 +1125,7 @@ h3 {
     border: none;
     /* margin-top: 2px; */
     position: absolute;
-    top: 0%;
-    margin-top: -16px;
+    top: 0%; 
 }
 
     #pencilFeel {

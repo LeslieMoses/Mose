@@ -2981,8 +2981,7 @@ select {
   width: 100%;
   height: 100%;
   -ms-transform: translateY(90%);
-  /* CHANGED THIS 08-26-17 */
-      transform: translateY(95%);
+      transform: translateY(90%);
   overflow-x: auto; }
   .position-bottom.is-open ~ .off-canvas-content {
     -ms-transform: translateY(-250px);
@@ -2999,7 +2998,8 @@ select {
   .position-bottom.is-transition-overlap.is-open ~ .off-canvas-content {
     -ms-transform: none;
         transform: none; 
-        height: 100%; 
+        height: 100%;
+
           }
 
 .off-canvas-content {
