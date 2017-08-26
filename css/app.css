@@ -196,21 +196,7 @@ font-size:210px;
 #getYourTextColor:hover #pencilColor {
     color: lightgreen;
 }
-.box {
-    float: right;
-    width: 35px;
-    height: 35px;
-    margin: 10px;
-    border: 7px solid white;
-    align-items: right;
-    border-radius: 15%;
-}
-.box:hover {
-    border-radius: 40%;
-    box-shadow: 1px 1px white, 2px 2px white, 3px 3px white;
-    -webkit-transform: translateX(-3px);
-    transform: translateX(-3px);
-}
+
 #cameraFeel {
     float: right;
     width: 40%;
@@ -389,73 +375,17 @@ color: #888;
 #offCanvasBottom1 {
     background: white; 
 }
-/*form*/
+ .fa-smile-o{
+ color: #FF4136;
+ margin-top: -16px;
+ 
+}
 
-form {
-    clear: both;
-    position: relative;
-    display: inline-block;
-    max-width: 500px;
-    min-width: 300px;
-    height: 400px;
-    min-height: 300px;
-    box-sizing: border-box;
-    padding: 30px 20px;
-    background-color: white;
-    border-radius: 40px;
-    margin: 40px 20px;
-    font-family: "Helvetica", sans-serif;
-    font-weight: light;
-    text-align: center;
-    -webkit-font-smoothing: antialiased;
-    border: 6px solid #3e2b14;
-    padding: 10px;
+.fa-smile-o:hover{
+ color: darksalmon;
+     margin-top: -16px;
 }
-Form:hover {
-    box-shadow: inset 0 0 0 10px navajowhite;
-}
-#inputText {
-    appearance: none;
-    background-color: none;
-    border: 1px solid #FF4136;
-    line-height: 0;
-    font-size: 40px;
-    width: 100%;
-    box-sizing: border-box;
-    padding: 15px 15px;
-    border-radius: 60px;
-    color: white;
-    font-weight: 100;
-    letter-spacing: 0.01em;
-    position: relative;
-    top: 60px;
-    z-index: 1;
-}
-input::-webkit-input-placeholder {
-    font-size: 16px;
-    line-height: 3;
-    color: white;
-    text-align: center;
-}
-#inputText:hover {
-    outline: none;
-    background: salmon;
-    color: white;
-    /*     margin-top: 30px;
-margin: 40px 20px; */
-    
-    font-family: "Georgia";
-}
-#inputText:focus {
-    outline: none;
-    background: salmon;
-    color: white;
-    /*     margin-top: 30px;
-margin: 40px 20px; */
-    
-    font-style: italic;
-    font-family: "Georgia";
-}
+
 #yourTextColor {
     border-radius: 20%;
     height: 3%;
@@ -660,27 +590,23 @@ font-size: 50px;
     font-weight:bolder; font-size:20px
 }
 
-#yearButton {
-    clear: both;
-    text-align: center;
-    line-height: 0px;
+.button #yearButton {
+    /* line-height: 0px; */
     visibility: visible;
     float: left;
     background: white;
     color: #FF4136;
     letter-spacing: none;
-    margin-top: 2px;
-    /* border: .5px solid #666; */
         font-family: 'Pacifico', cursive; 
-
-        
+          margin-top: -16px;
+      
 }
 
 
 .button #yearButton:hover {
     color: white;
     background-color: #FF4136;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 
@@ -703,19 +629,7 @@ font-size:110px;
 
 /* YEAR IN COLOR CALENDAR*/
 
- .smile img{
-    display: inline-block;
-    vertical-align: middle;
-    max-width: 60%;
-    height: auto;
-    -ms-interpolation-mode: bicubic;
-    border-radius: 30px;
-}
-
-ul {
-    list-style-type: none;
-    box-sizing: border-box;
-}
+ 
 #yearInColorHead {
     font-family: 'Syncopate', sans-serif;
     font-size: 30px;
@@ -724,7 +638,7 @@ ul {
 }
 /* Media queries */
     /* ---------------------------------Sm--iphone5-------- */
-     {
+/* #iPHONE FIX NEEDED? WHERE'S THE MEDIA Q HEADER?      */
      .callout H4 {
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 43px;
@@ -733,7 +647,7 @@ ul {
     color: #444;
     font-weight:bold;
 }
-}
+
  /* ---------------------------------Sm---------- */
 /* SMALL only */
     /* 638px */
@@ -1115,7 +1029,7 @@ h3 {
             border: 7px solid #3e2b14;
         }
 
-        #yearButton {
+#yearButton {
     clear: both;
     text-align: center;
     visibility: visible;
@@ -1127,13 +1041,12 @@ h3 {
         font-family: 'Pacifico', cursive; 
     font-size: 39px;
     border:none;
-        /* margin-top: 2px; */
+          margin-top: 2px; 
             position: absolute;
-    top: 0%;
+    top: 0%; 
+    margin-top:-16px;
 }
-/* #yearButton:hover {
-    color: #FF4118 ; 
-} */
+ 
 
 #offCanvasBottom1 {
     background: white; 
@@ -1141,10 +1054,13 @@ h3 {
 
 .fa-smile-o{
  color: #FF4136;
+ margin-top: -16px;
+ 
 }
 
 .fa-smile-o:hover{
  color: darksalmon;
+     margin-top: -16px;
 }
  .image-hover-wrapper .image-hover-wrapper-banner {
 
@@ -1183,8 +1099,8 @@ h3 {
 /* -------------------------------X-Md---------- */
 /* X-md  */
 /* 64em--74em = 1024px to 1198px*/
-@media screen and (min-width: 64em) and (max-width: 74.9375em)
-{
+/* @media screen and (min-width: 64em) and (max-width: 74.9375em)
+{ */
 /* --------------------------------Lg---------- */
 /* Large only */
 /* 64em--74em = 1064px to 1198px*/
@@ -1199,6 +1115,24 @@ h3 {
         font-size: 45px;
         line-height: 100px;
     }
+
+    #yearButton {
+    clear: both;
+    text-align: center;
+    visibility: visible;
+    float: left;
+    line-height: 0px;
+    background: white;
+    color: #FF4136;
+    /* border: .5px solid #666; */
+    font-family: 'Pacifico', cursive;
+    font-size: 39px;
+    border: none;
+    /* margin-top: 2px; */
+    position: absolute;
+    top: 0%;
+    margin-top: -16px;
+}
 
     #pencilFeel {
         float: right;
