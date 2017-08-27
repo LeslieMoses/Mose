@@ -279,6 +279,7 @@ min-height: 100px; */
     padding: 20px;
      font-family: 'Open Sans Condensed', sans-serif;
      font-size: 24px;
+     max-width: 90%;
 }
 
 .image-hover-wrapper a {
@@ -362,7 +363,7 @@ min-height: 100px; */
 }
  .bold {
 font-weight: bolder;
-color: #888;
+color: #FF4136;
 }
 
 /* .visitLink {
@@ -556,6 +557,8 @@ button #getColorButton:focus {
 .portfolio-resume-headshot {
   margin-bottom: 1rem;
   border-radius: 10%;
+  max-width:65%;
+  max-height:50%
 }
 
 .portfolio-resume-header {
@@ -727,6 +730,7 @@ element.style {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 24px;
     display:inline-block;
+    max-width: 90%;
 }
  #backTop {
     background: #FF4136;
