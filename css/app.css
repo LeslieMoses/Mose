@@ -24,31 +24,28 @@ body {
     font-family: 'Pacifico', cursive; 
     line-height: auto;
     margin-bottom: auto;
-    /*     font-weight: bold; */
         font-size: 150px;
 } 
 
 .mosesTitle {
 font-family:'Monofett', cursive; 
-font-size:310px;
+font-size:210px;
 }
 
+
 .callout H4 {
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Georgia', serif;
     letter-spacing: .05em;
-    line-height: 3px;
-    font-size: 40px;
-    color:white;
+    line-height: 43px; 
+    font-size: 45px;
+    text-align: right;
+    font-weight: bold;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: white;
 }
-#feelSpectrumText {
-    letter-spacing: 1em;
-    line-height: 2px;
-    margin-bottom: 6px;
-    text-align: left;
-}
-/**{
-        background: #ff7bac;
-    }*/
+ 
+ 
 
     /* START  socials icons --> */
  
@@ -97,16 +94,7 @@ font-size:310px;
 }
 
 
-
-   
     /* END Socials icons */
-
-
-
-#smCameraButton {
-    margin-left: 5px;
-    margin-top: -10px;
-}
 
 .rezTitle{
     font-family:'Monofett', cursive; 
@@ -128,43 +116,22 @@ font-size:310px;
     font-size: 20px;
     color: #666;
 }
-#pencilColor {
-    font-size: 350px;
-    float: right;
-    width: 40%;
-    height: 40%;
-    margin-right: 50px;
-    padding: 0px;
-    color: white;
-}
 
-
-#pencilColor:hover {
-    color: navajowhite;
-}
- 
 
 #cameraFeel {
     float: right;
     width: 40%;
     height: 40%;
-    margin-right: 10px;
+    margin-right: 50px;
     padding: 0px;
     border-style: none;
     color: white;
-    font-size: 110px;
+    font-size: 90px;
 }
 #cameraFeel:hover {
     color: grey;
 }
-#smCamera {
-    color: black;
-    text-align: right;
-}
-#smCamera:hover {
-    color: floralwhite;
-    text-align: right;
-}
+
 
 
 #pencilFeel {
@@ -174,37 +141,29 @@ font-size:310px;
     margin-right: 50px;
     padding: 0px;
     color: white;
-    font-size: 110px;
+    font-size: 90px;
 
 }
 #pencilFeel:hover {
     color: grey;
-    /*     max-width: 400px;
-min-width: 100px;
-height: 400px;
-min-height: 100px; */
-}
-#textCamera {
-    font-size: 55px;
-    color: white;
-    font-weight: bolder;
-    padding-left: none;
-    text-align: right;
-    font-family: 'Open Sans Condensed', sans-serif;
-}
-#textPencil {
-    font-size: 55px;
-    color: white;
-    font-weight: bolder;
-    padding-left: none;
-    text-align: center;
-    font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.feel {
+#textCamera {
+    font-size: 40px;
     color: white;
-    font-size: 18px;
+    padding-left: none;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
 }
+#textPencil {
+    font-size: 40px;
+    color: white;
+    padding-left: none;
+    text-align: center;
+    font-family: 'Lato', sans-serif; 
+}
+
+ 
 /* START CARO Pics */
 
 .image-hover-wrapper {
@@ -378,23 +337,23 @@ button #getColorButton:focus {
 }
 
 .rounded-social-buttons .social-button {
-  display: inline-block;
-  position: relative;
-  cursor: pointer;
-  width: 3rem;
-  height: 3rem;
-  border: 0.125rem solid white;
-  padding: 0;
-  text-decoration: none;
-  text-align: center;
-  color: #fefefe;
-  font-size: 2rem;
-  font-weight: normal;
-  line-height: 1.5em;
-  border-radius: 1.6875rem;
-  transition: all 0.5s ease;
-  margin-right: 0.25rem;
-  margin-bottom: 0.25rem;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 2rem;
+    height: 2rem;
+    border: 0.125rem solid white;
+    padding: 0;
+    text-decoration: none;
+    text-align: center;
+    color: #fefefe;
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 1.5em;
+    border-radius: 1.6875rem;
+    transition: all 0.5s ease;
+    margin-right: 0.25rem;
+    margin-bottom: 0.25rem;
 }
 
 .rounded-social-buttons .social-buttonHomePg {
@@ -524,6 +483,10 @@ font-size: 50px;
   margin-bottom: 0.75rem;
 }
 
+.portfolio-resume-contact-info a:hover {
+    color: grey;
+}
+
 .portfolio-resume-contact-info a {
   color: whitesmoke;
 }
@@ -534,6 +497,8 @@ font-size: 50px;
     vertical-align: middle;
     color: white;
 }
+
+
 .rezDividers{
     font-weight:bolder; font-size:20px
 }
@@ -587,14 +552,7 @@ font-size:110px;
 /* Media queries */
     /* ---------------------------------Sm--iphone5-------- */
 /* #iPHONE FIX NEEDED? WHERE'S THE MEDIA Q HEADER?      */
-     .callout H4 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    line-height: 43px;
-    font-size: 25px;
-    text-align: left;
-    color: white;
-    font-weight:bold;
-}
+
 
  /* ---------------------------------Sm---------- */
 /* SMALL only */
@@ -1040,22 +998,4 @@ h3 {
  
 } 
 
-/* Desktops and laptops ----------- */
-@media only screen  and (min-width : 1200px) {
-    
-    .mosesTitle {
-font-family:'Monofett', cursive; 
-font-size:210px;
-}
 
-        .callout H4 {
-    font-family: 'Open Sans Condensed', sans-serif;
-    line-height: 43px;
-    font-size: 47px;
-    text-align: right;
-    color: white;
-    font-weight: bold;
-    margin-left: 16px;
-    margin-top: 50px;
-     margin-bottom: 250px;
-}
