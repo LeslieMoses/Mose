@@ -24,20 +24,22 @@ body {
     font-family: 'Pacifico', cursive; 
     line-height: auto;
     margin-bottom: auto;
-        font-size: 150px;
+        font-size: 50px;
+        text-align: center;
 } 
 
 .mosesTitle {
 font-family:'Monofett', cursive; 
-font-size:210px;
+font-size:90px;
+        text-align: center;
 }
 
 
-.callout H4 {
+H4 {
     font-family: 'Georgia', serif;
-    letter-spacing: .05em;
-    line-height: 43px; 
-    font-size: 45px;
+        letter-spacing: .020em;
+    line-height: 153px;
+    font-size: 192px;
     text-align: right;
     font-weight: bold;
     margin-top: 50px;
@@ -567,7 +569,7 @@ font-size:110px;
     padding-left: .5rem;
 }
 
-.callout H4 {
+ H4 {
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 43px;
     font-size: 27px;
@@ -854,7 +856,7 @@ h3 {
             /* display: block; */
         }
 
-        .callout H4 {
+    H4 {
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 43px;
     font-size: 47px;
