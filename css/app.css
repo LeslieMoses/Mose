@@ -4,12 +4,11 @@
 
      
 body {
-    background: #36c3e5;
-    background: #FF4136;
+    background: black;
+    color: whitesmoke;
 }
 .callout {
-    background: #36c3e5;
-    background: #FF4136;
+    background: black;
     padding: 10px;
     color: white;
     text-align: right;
@@ -39,6 +38,7 @@ font-size:310px;
     letter-spacing: .05em;
     line-height: 3px;
     font-size: 40px;
+    color:white;
 }
 #feelSpectrumText {
     letter-spacing: 1em;
@@ -67,7 +67,7 @@ font-size:310px;
   font-size: 2.4rem;
   padding-right: 0.8rem;
   padding-bottom: 1rem;
-  color: #333;
+  color: whitesmoke;
 }
 
 @media screen and (max-width: 39.9375em) {
@@ -101,27 +101,7 @@ font-size:310px;
    
     /* END Socials icons */
 
-#talkInvite {
-    font-size: 40px;
-    font-family: 'Comfortaa', cursive;
-    line-height: 3px;
-    color: #FF4136;
-    margin-bottom: 2px;
-    margin-top: 20px;
-    background: white;
-    border-radius: 40%;
-}
-#selfieInvite {
-    font-size: 60px;
-    font-family: 'Comfortaa', cursive;
-    line-height: 3px;
-    color: #FF4136;
-    margin-bottom: 2px;
-    margin-top: 20px;
-    background: white;
-    border-radius: 40%;
-    text-align: right;
-}
+
 
 #smCameraButton {
     margin-left: 5px;
@@ -173,17 +153,9 @@ font-size:310px;
     border-style: none;
     color: white;
     font-size: 110px;
-    /*     max-width: 400px;
-min-width: 100px;
-height: 400px;
-min-height: 100px; */
 }
 #cameraFeel:hover {
     color: grey;
-    /*     max-width: 400px;
-min-width: 100px;
-height: 400px;
-min-height: 100px; */
 }
 #smCamera {
     color: black;
@@ -219,7 +191,6 @@ min-height: 100px; */
     padding-left: none;
     text-align: right;
     font-family: 'Open Sans Condensed', sans-serif;
-    /* margin-top: 20px; */
 }
 #textPencil {
     font-size: 55px;
@@ -228,7 +199,6 @@ min-height: 100px; */
     padding-left: none;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    /* margin-top: 20px; */
 }
 
 .feel {
@@ -333,11 +303,7 @@ font-weight: bolder;
 color: #FF4136;
 }
 
-/* .visitLink {
-    color:black;
-    font-family: 'Open Sans Condensed', sans-serif;
 
-} */
 /* END CARO Pics  */
 
 
@@ -405,8 +371,7 @@ button #getColorButton:focus {
        
 }
 
-/* START SOCIAL */
-@charset "UTF-8";
+/* START SOCIAL */ 
 
 .rounded-social-buttons {
   text-align: center;
@@ -418,7 +383,7 @@ button #getColorButton:focus {
   cursor: pointer;
   width: 3rem;
   height: 3rem;
-  border: 0.125rem solid transparent;
+  border: 0.125rem solid white;
   padding: 0;
   text-decoration: none;
   text-align: center;
@@ -454,25 +419,30 @@ button #getColorButton:focus {
 
 
 .boldRezHed {
-    color: black;
-
+    color: whitesmoke;
    font-weight: bolder;
    font-size: 25px; 
 }
 
 .fa-graduation-cap {
-    color:black;
+    color:white;
 }
 
 .bullet{
-    color:black;
+    color:whitesmoke;
 }
 
 .rezSubHed {
-   color: black;
+   color: whitesmoke;
    font-weight: bold;
    font-size: 18px; 
 }
+
+.rezDetails {
+    color: whitesmoke;
+}
+
+
 
 .rounded-social-buttons .social-button.twitter {
   background: #55acee;
@@ -525,6 +495,7 @@ button #getColorButton:focus {
 
 .portfolio-resume-spacing {
   margin-bottom: 2rem;
+  color: whitesmoke;
 }
 
 .portfolio-resume-wrapper {
@@ -534,7 +505,7 @@ button #getColorButton:focus {
 .portfolio-resume-headshot {
   margin-bottom: 1rem;
   border-radius: 10%;
-  max-width:95%;
+  max-width:75%;
 }
 
 .portfolio-resume-header {
@@ -554,7 +525,7 @@ font-size: 50px;
 }
 
 .portfolio-resume-contact-info a {
-  color: #0a0a0a;
+  color: whitesmoke;
 }
 
 .portfolio-resume-contact-info .fa {
@@ -581,8 +552,8 @@ font-size: 50px;
 
 
 .button #yearButton:hover {
-    color: white;
-    background-color: #FF4136;
+    color: #FF4136;
+    background-color: white;
     /* border: 1px solid grey; */
 }
 
@@ -621,7 +592,7 @@ font-size:110px;
     line-height: 43px;
     font-size: 25px;
     text-align: left;
-    color: #555;
+    color: white;
     font-weight:bold;
 }
 
@@ -643,7 +614,7 @@ font-size:110px;
     line-height: 43px;
     font-size: 27px;
     text-align: center;
-    color: #555;
+    color: white;
     font-weight: bold;
     margin-left: 16px;
 }
@@ -751,7 +722,6 @@ display: block;
 
 .fa-share{
 color:#FF4136;
-/* border: black solid 2px; */
 z-index: 2;
 size: 20px;
 }
@@ -844,7 +814,7 @@ size: 20px;
 h3 {
         font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 30px;
-    color: black;
+    color: whitesmoke;
     font-weight: bolder;
 }
 
@@ -858,7 +828,7 @@ h3 {
  p .baseTxt{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     font-size: 16px;
-    color: black;
+    color: whitesmoke;
 }
 
 
@@ -931,7 +901,7 @@ h3 {
     line-height: 43px;
     font-size: 47px;
     text-align: right;
-    color: #555;
+    color: white;
     font-weight: bold;
     margin-left: 16px;
     margin-top: 50px;
@@ -1083,7 +1053,7 @@ font-size:210px;
     line-height: 43px;
     font-size: 47px;
     text-align: right;
-    color: #555;
+    color: white;
     font-weight: bold;
     margin-left: 16px;
     margin-top: 50px;
