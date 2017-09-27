@@ -565,31 +565,45 @@ font-size:110px;
 
  H4 {
     font-family: 'Georgia', serif;
-    line-height: 72px;
-    font-size: 90px;
+    line-height: 34px;
+    font-size: 46px;
     text-align: center;
     color: white;
     font-weight: bold;
 }
 
    .leslieTitle {
-    font-family: 'Pacifico', cursive;    
-    line-height: 45px;
-    font-size: 35px;
-      text-align: center;
-
+    font-family: 'Pacifico', cursive;
+    line-height: 15px;
+    font-size: 25px;
+    text-align: center;
 } 
   .mosesTitle {
-      font-family:'Monofett', cursive; 
-    font-size: 65px;
-    line-height: 20px;
+    font-family: 'Monofett', cursive;
+    font-size: 42px;
+    line-height: 10px;
         }
 
 #bluePic {
     display: inline-block;
     vertical-align: middle;
-    max-width: 15%;
+    max-width: 20%;
     height: 35%;
+}
+
+.rounded-social-buttons .social-button {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    width: 1.75rem;
+    height: 1.75rem;
+    border: 0.1rem solid white;
+    text-align: center;
+    color: #fefefe;
+    font-size: 1.2rem;
+    border-radius: 1.6875rem;
+    transition: all 0.5s ease;
+    margin-right: 0.55rem;
 }
 
 .rezTitle{
