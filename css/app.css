@@ -14,6 +14,7 @@ body {
     text-align: right;
     border: none;
     margin-top: 0px;
+        margin-bottom: -10px;
 }
 .x-callout:before {
     display: none;
@@ -38,15 +39,26 @@ font-size:80px;
 H4 {
     font-family: 'Georgia', serif;
     letter-spacing: .0em;
-    line-height: 153px;
-    font-size: 192px;
-    text-align: left;
+    line-height: 133px;
+    font-size: 202px;
+    text-align: center;
     font-weight: bolder;
-    margin-top: 50px;
-    margin-bottom: 50px;
     color: white;
 }
+
+#develop{
+font-size:100px;
+    line-height: 10px;
+}
  
+img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    height: auto;
+    -ms-interpolation-mode: bicubic;
+    margin-bottom: -35px;
+}
  
 
     /* START  socials icons --> */
@@ -559,17 +571,25 @@ font-size:110px;
 .callout.large {
     padding-top: 1.5rem;
     padding-right: .5rem;
-    padding-bottom: .5rem;
+    padding-bottom: 0rem;
     padding-left: .5rem;
+    margin-bottom: -20px;
 }
 
  H4 {
     font-family: 'Georgia', serif;
-    line-height: 34px;
-    font-size: 46px;
+    line-height: 65px;
+    font-size: 76px;
     text-align: center;
     color: white;
     font-weight: bold;
+    margin-top: unset;
+        margin-bottom: 40px;
+}
+#develop {
+    font-size: 42px;
+    line-height: 10px;
+    text-align: center;
 }
 
    .leslieTitle {
@@ -582,13 +602,21 @@ font-size:110px;
     font-family: 'Monofett', cursive;
     font-size: 42px;
     line-height: 10px;
+    display: block;
         }
 
 #bluePic {
     display: inline-block;
     vertical-align: middle;
-    max-width: 20%;
-    height: 35%;
+    max-width: 15%;
+    height: 20%;
+    margin-bottom: unset;
+}
+
+.rounded-social-buttons {
+    text-align: center;
+    margin-bottom: -15px;
+    margin-top: -15px;
 }
 
 .rounded-social-buttons .social-button {
@@ -866,6 +894,12 @@ h3 {
     margin-left: 16px;
     margin-top: 50px;
     margin-bottom: 50px;
+}
+
+#develop {
+    font-size: 80px;
+    line-height: 1px;
+    margin-top: -5px;
 }
         #textPencil {
             font-size: 48px;
