@@ -44,6 +44,7 @@ H4 {
     text-align: center;
     font-weight: bolder;
     color: white;
+        margin-bottom: 1.9rem;
 }
 
 #develop{
@@ -409,7 +410,16 @@ button #getColorButton:focus {
     color: whitesmoke;
 }
 
+.rounded-social-buttons .social-button.fa-paint-brush {
+      background: white;
+}
 
+
+.rounded-social-buttons .social-button.paint-brush:hover, .rounded-social-buttons .social-button.fa-paint-brush:focus {
+  color: black;
+  background: white;
+  border-color: black;
+}
 
 .rounded-social-buttons .social-button.twitter {
   background: #55acee;
@@ -631,7 +641,7 @@ font-size:110px;
     font-size: 1.2rem;
     border-radius: 1.6875rem;
     transition: all 0.5s ease;
-    margin-right: 0.55rem;
+margin-top: 2.24rem;
 }
 
 .rezTitle{
