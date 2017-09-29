@@ -79,7 +79,18 @@ img {
     border-radius: 11px;
 
 }
+a {
+    color: white;
+    text-decoration: none;
+}
 
+a:hover 
+{
+     color:white; 
+     text-decoration:none; 
+     cursor:pointer;  
+}
+    
     /* START  socials icons --> */
  
  
