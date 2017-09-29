@@ -666,11 +666,11 @@ button #getColorButton:focus {
   text-transform: uppercase;
   padding-bottom: 1rem;
   border-bottom: 1px solid #e6e6e6;
-  font-weight: bold;
+    font-weight: normal;
   margin-bottom: 1rem;
-font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'monofett';
 color:white;
-font-size: 50px;
+font-size: 43px;
 }
 
 
@@ -766,12 +766,12 @@ font-size:110px;
  H4 {
     font-family: 'Georgia', serif;
     line-height: 65px;
-    font-size: 72px;
+    font-size: 70px;
     text-align: center;
-    color: white;
+    color: #ff1d8e;
     font-weight: bold;
     margin-top: unset;
-        margin-bottom: 40px;
+    margin-bottom: 40px;
 }
 #develop {
     font-size: 42px;
@@ -859,7 +859,7 @@ margin-top: 2.24rem;
     max-width: 88%;
 }
  #backTop {
-    background: #ff1d8e;
+     background: #ff1d8e;
     color: white;
     margin-top: 10px;
     font-size: 17px;
@@ -1117,9 +1117,9 @@ h3 {
 }
 
 #backTop {
-    background: #ff1d8e;
+     background: #ff1d8e;
     color: white;
-    font-size: 17px;
+    margin-top: 5px;
     font-family: georgia;
 }
         .small-12 {

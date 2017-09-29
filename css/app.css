@@ -345,9 +345,11 @@ button #getColorButton:focus {
     background-color: #FF4136;
 }
 #backTop {
-    background: #FF4136 ;
+     background: #ff1d8e;
     color: white;
     margin-top: 10px;
+    font-size: 17px;
+    font-family: georgia;
        
 }
 
@@ -694,11 +696,11 @@ margin-top: 2.24rem;
     max-width: 88%;
 }
  #backTop {
-    background: #FF4136;
+    background: #ff1d8e;
     color: white;
     margin-top: 10px;
     font-size: 17px;
-    font-family: 'Open Sans Condensed', sans-serif;
+    font-family: georgia;
 }
 .webImage{
     /* display: inline-block; */
@@ -953,8 +955,11 @@ h3 {
 }
 
 #backTop {
-    background: #FF4136;
+    background: #ff1d8e;
+    color: white;
     margin-top: 5px;
+    font-size: 17px;
+    font-family: georgia;
 }
         .small-12 {
             padding: 0px;
