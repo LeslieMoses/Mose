@@ -874,38 +874,7 @@ margin-top: 2.24rem;
 
 }
 
-.image-hover-wrapper .image-hover-wrapper-banner {
 
-    display: none;
-}
-.image-hover-wrapper a .image-hover-wrapper-reveal p {
-display: block;
-    opacity: 1;
-    position: absolute;
-    top: 65%;
-    left: 35%;
-    color: black;
-    background: white;
-    border: #FF4136 3px solid;
-    border-radius: 14px;
-    text-align: center;
-    width: 20%;
-    height: 19%;
-}
-.hideDescribe{
-  display: none;
-}
-
-.fa-share{
-color:#FF4136;
-z-index: 2;
-size: 20px;
-}
-
-
-.visitSmallTxt{
-    font-size:30px;
-}
 
 .smText{
         color: white;
