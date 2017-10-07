@@ -20,6 +20,10 @@ body {
     display: none;
 }
 
+.iconReveal{
+    text-align: center;
+    /* margin-top: 20px; */
+}
 
 .leslieTitle {
     font-family: 'Pacifico', cursive; 
@@ -395,7 +399,7 @@ button #getColorButton:focus {
     cursor: pointer;
     width: 2rem;
     height: 2rem;
-    border: 0.125rem solid white;
+    /* border: 0.125rem solid white; */
     padding: 0;
     text-decoration: none;
     text-align: center;
@@ -405,7 +409,7 @@ button #getColorButton:focus {
     line-height: 1.5em;
     border-radius: 1.6875rem;
     transition: all 0.5s ease;
-    margin-right: 0.25rem;
+    /* margin-right: 0.25rem; */
     margin-bottom: 0.25rem;
 }
 
@@ -454,16 +458,42 @@ button #getColorButton:focus {
     color: whitesmoke;
 }
 
-.rounded-social-buttons .social-button.fa-paint-brush {
+/* .rounded-social-buttons .social-button.fa-paint-brush {
       background: white;
-}
+} */
 
-
+/* 
 .rounded-social-buttons .social-button.paint-brush:hover, .rounded-social-buttons .social-button.fa-paint-brush:focus {
   color: black;
   background: white;
   border-color: black;
+} */
+
+/* START example */
+/* .candycane {
+    background: #E5071F;
 }
+.candycane #candycaneFeel {
+    visibility: hidden;
+}
+.candycane:hover #candycaneFeel {
+    visibility: visible;
+    position: relative;
+    bottom: -40px;
+} */
+/* END example */
+
+.iconReveal {
+     /* display: none; */
+         visibility: hidden;
+}
+/* trying */
+.paint-brush:hover .iconReveal {
+ /* display: block;  */
+ visibility: visible; 
+color: white;
+}
+
 
 .rounded-social-buttons .social-button.twitter {
   background: #55acee;
@@ -628,6 +658,11 @@ font-size:110px;
     padding-bottom: 0rem;
     padding-left: .5rem;
     margin-bottom: -20px;
+}
+.iconReveal {
+    text-align: center;
+    margin-bottom: -30px;
+        margin-top: 55px;
 }
 
  H4 {
