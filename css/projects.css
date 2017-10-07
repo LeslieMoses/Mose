@@ -629,7 +629,7 @@ button #getColorButton:focus {
 }
 
 .rounded-social-buttons .social-button.github {
-  background: #000000;
+  background: #555;
 }
 
 .rounded-social-buttons .social-button.github:before {

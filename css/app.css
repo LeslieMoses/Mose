@@ -236,11 +236,15 @@ button #getColorButton:focus {
  visibility: visible; 
 }
 
+.copyright {
+    font-family: 'Fredericka the Great', cursive;
+    text-align: center;
+    color:#ff1d8e;
+}
 
-
-/* .rounded-social-buttons .social-button.twitter {
+ .rounded-social-buttons .social-button.twitter {
   background: #55acee;
-} */
+} 
 
 .rounded-social-buttons .social-button.twitter:before {
   font-family: "FontAwesome";
@@ -269,7 +273,7 @@ button #getColorButton:focus {
 }
 
 .rounded-social-buttons .social-button.github {
-  background: #000000;
+  background: #555;
 }
 
 .rounded-social-buttons .social-button.github:before {
