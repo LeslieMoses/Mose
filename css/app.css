@@ -20,10 +20,7 @@ body {
     display: none;
 }
 
-.iconReveal{
-    text-align: center;
-    /* margin-top: 20px; */
-}
+
 
 .leslieTitle {
     font-family: 'Pacifico', cursive; 
@@ -66,24 +63,7 @@ img {
 }
  
 
-/* START responsive blog */
 
-
-.responsive-blog-post {
-  margin-bottom: 4rem;
-}
-
-.responsive-blog-post p {
-  color: whitesmoke;
-}
-
-
-.responsive-blog-post .individual-post {
-  margin-bottom: 4rem;
-}
-
-
-/* END responsive blog */
 a {
     color: white;
     text-decoration: none;
@@ -173,169 +153,7 @@ a:hover
     font-size:100px; 
     text-align:right;
 }
-#sayText {
-    font-size: 20px;
-    color: #666;
-}
 
-
-#cameraFeel {
-    float: right;
-    width: 40%;
-    height: 40%;
-    margin-right: 50px;
-    padding: 0px;
-    border-style: none;
-    color: white;
-    font-size: 90px;
-}
-#cameraFeel:hover {
-    color: grey;
-}
-
-
-
-#pencilFeel {
-    float: right;
-    width: 40%;
-    /* height: 40%; */
-    margin-right: 50px;
-    padding: 0px;
-    color: white;
-    font-size: 90px;
-
-}
-#pencilFeel:hover {
-    color: grey;
-}
-
-#textCamera {
-    font-size: 40px;
-    color: white;
-    padding-left: none;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-}
-#textPencil {
-    font-size: 40px;
-    color: white;
-    padding-left: none;
-    text-align: center;
-    font-family: 'Lato', sans-serif; 
-}
-
- 
-/* START CARO Pics */
-
-.image-hover-wrapper {
-    position: relative;
-    background: white;
-    /* padding: 10%; */
-    margin-bottom: 2%;
-    border-radius: 1%;
-    padding: 20px;
-     font-family: 'Open Sans Condensed', sans-serif;
-     font-size: 24px;
-     max-width: 90%;
-}
-
-.image-hover-wrapper a {
-  display: inline-block;
-  letter-spacing: normal;
-  line-height: initial;
-  margin: 0;
-  padding: 0;
-  position: relative;
-}
-
-.image-hover-wrapper a img {
-  float: left;
-  overflow: hidden;
-  width: 100%;
-}
-
-.image-hover-wrapper a .image-hover-wrapper-reveal {
-  background-color: rgba(1, 2, 3, .7);
-  color: #fefefe;
-  display: inline;
-  height: 100%;
-  margin-left: -100%;
-  opacity: 0;
-  position: absolute;
-  width: 100%;
-  z-index: 80;
-  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition-delay: 0.25s;
-}
-
-.image-hover-wrapper a .image-hover-wrapper-reveal:hover {
-  opacity: 1;
-  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.image-hover-wrapper a .image-hover-wrapper-reveal:hover p {
-  opacity: 1;
-  -webkit-transform: translateY(-100%);
-      -ms-transform: translateY(-100%);
-          transform: translateY(-100%);
-  transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-  transition-delay: 0.25s;
-}
-
-.image-hover-wrapper a .image-hover-wrapper-reveal p {
-    /* bottom: 20px; */
-    display: block;
-    opacity: 1;
-    position: absolute;
-    top: 50%;
-    left: 30%;
-    color: black;
-    background: white;
-    border: #FF4136 5px solid;
-    border-radius: 14px;
-    padding: 2%;
-    text-align: center;
-    width: 25%;
-    transition: all 500ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
-}
-
-.image-hover-wrapper a .fa {
-  font-size: 24px;
-}
-
-
-.image-hover-wrapper .image-hover-wrapper-banner {
-    background-color: #444;
-    color: white;
-    /* font-weight: 600; */
-    left: 0;
-    padding: 0.8rem;
-    position: absolute;
-    top: 7%;
-    left: 101%;
-    width: 15%;
-    z-index: 0;
-    border-radius: 8px;
-    text-align: center;
-}
- .bold {
-font-weight: bolder;
-color: #FF4136;
-}
-
-
-/* END CARO Pics  */
-
-
-#yourTextColor {
-    border-radius: 20%;
-    height: 3%;
-    width: 3% ;background: white;
-}
-.question {
-    position: relative;
-    padding: 10px 0;
-}
 
 h2 {
     font-size: 1.1875rem;
@@ -483,16 +301,26 @@ button #getColorButton:focus {
 } */
 /* END example */
 
-.iconReveal {
-     /* display: none; */
+.projectsReveal {
          visibility: hidden;
+             color: #ff1d8e;
+           font-family: 'Fredericka the Great', cursive;
 }
-/* trying */
-.paint-brush:hover .iconReveal {
- /* display: block;  */
+            
+.paint-brush:hover .projectsReveal {
  visibility: visible; 
-color: white;
 }
+
+.resumeReveal {
+         visibility: hidden;
+             color: #ff1d8e;
+                font-family: 'Fredericka the Great', cursive;
+}
+            
+.id-card:hover .resumeReveal {
+ visibility: visible; 
+}
+
 
 
 .rounded-social-buttons .social-button.twitter {
@@ -659,11 +487,22 @@ font-size:110px;
     padding-left: .5rem;
     margin-bottom: -20px;
 }
-.iconReveal {
-    text-align: center;
-    margin-bottom: -30px;
-        margin-top: 55px;
+
+
+.projectReveal {
+     /* display: none; */
+         visibility: hidden;
+         font-family: 'helvetica';
+                  font-weight: bolder;
+         font-size: 16px;
+         color: #ff1d8e;
 }
+.paint-brush:hover .paint-brush:active .projectsReveal {
+ /* display: block;  */
+ visibility: visible; 
+}
+
+
 
  H4 {
     font-family: 'Georgia', serif;
@@ -714,7 +553,7 @@ font-size:110px;
     cursor: pointer;
     width: 1.75rem;
     height: 1.75rem;
-    border: 0.1rem solid white;
+    /* border: 0.1rem solid white; */
     text-align: center;
     color: #fefefe;
     font-size: 1.2rem;
@@ -765,9 +604,9 @@ margin-top: 2.24rem;
     max-width: 88%;
 }
  #backTop {
-    background: #ff1d8e;
-    color: white;
-    margin-top: 10px;
+    /* background: #ff1d8e; */
+    color: #ff1d8e;
+    /* margin-top: 10px; */
     font-size: 17px;
     font-family: georgia;
 }
