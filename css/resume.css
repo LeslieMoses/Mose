@@ -326,7 +326,7 @@ button #getColorButton:focus {
 .rezSubHed {
    color: whitesmoke;
    font-weight: bold;
-   font-size: 18px; 
+   font-size:22px;
 }
 
 .rezDetails {
@@ -392,13 +392,15 @@ button #getColorButton:focus {
 }
 
 .portfolio-resume-wrapper {
-  padding: 2rem ;
+padding: 1rem;
+    border: #777 1px solid;
+    border-radius: 6px;
 }
 
 .portfolio-resume-headshot {
   margin-bottom: 1rem;
   border-radius: 10%;
-  max-width:75%;
+  max-width:55%;
 }
 
 .portfolio-resume-header {
