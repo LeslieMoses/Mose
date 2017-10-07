@@ -472,11 +472,11 @@ font-size:110px;
     cursor: pointer;
     width: 1.75rem;
     height: 1.75rem;
-    /* border: 0.1rem solid white; */
+     /* border: 0.1rem solid white;  */
     text-align: center;
     color: #fefefe;
     font-size: 1.2rem;
-    /* border-radius: 1.6875rem; */
+     border-radius: 1.6875rem; 
     transition: all 0.5s ease;
 margin-top: 2.24rem;
 }
