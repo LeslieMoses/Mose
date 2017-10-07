@@ -76,66 +76,7 @@ a:hover
      cursor:pointer;  
 }
 
-    /* START  socials icons --> */
- 
- 
-.social-links {
-  background: #FF4136;
-  padding: 2rem 0 1rem;
-}
-
-.social-links a {
-  color: white;
-  font-size: 1.2rem;
-}
-
-.social-links i.fa {
-  font-size: 2.4rem;
-  padding-right: 0.8rem;
-  padding-bottom: 1rem;
-  color: whitesmoke;
-}
-
-.btnLabel {
-    visibility: hidden;
-    color: white;
-    font-family: 'Georgia';
-    font-size: 22px;
-}
-.social-button:hover .btnLabel {
-    visibility: visible;
-  
-  margin-top: -34em;
-}
-
-@media screen and (max-width: 39.9375em) {
-  .social-links {
-    padding: 2rem 0;
-  }
-  .social-links i.fa {
-    font-size: 2rem;
-    display: block;
-    padding-right: 0;
-    padding-bottom: 0.5rem;
-  }
-  .social-links a {
-    font-weight: bold;
-  }
-  .social-links .columns {
-    margin: 1rem 0;
-  }
-  .social-links .mobile-stack {
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
-
-    /* END Socials icons */
+   
 
 .rezTitle{
     font-family:'Monofett', cursive; 
@@ -164,11 +105,8 @@ h2 {
     text-align: right;
 }
 
-
-
 button {
     /* @extend .transition*/
-    
     margin-top: 20px;
     background-color: #FF4136;
     border: 1px solid #FF4136;
@@ -177,7 +115,6 @@ button {
     box-sizing: border-box;
     padding: 20px 15px;
     /*      border-radius: 60px;*/
-    
     color: white;
     font-weight: 100;
     letter-spacing: 0.1em;
@@ -248,7 +185,7 @@ button #getColorButton:focus {
   border-radius: 1.6875rem;
   transition: all 0.5s ease;
   margin-right: 0.25rem;
-  margin-bottom: 0.25rem;
+  /* margin-bottom: 0.25rem; */
 }
 
 
@@ -276,29 +213,7 @@ button #getColorButton:focus {
     color: whitesmoke;
 }
 
-/* .rounded-social-buttons .social-button.fa-paint-brush {
-      background: white;
-} */
 
-/* 
-.rounded-social-buttons .social-button.paint-brush:hover, .rounded-social-buttons .social-button.fa-paint-brush:focus {
-  color: black;
-  background: white;
-  border-color: black;
-} */
-
-/* START example */
-/* .candycane {
-    background: #E5071F;
-}
-.candycane #candycaneFeel {
-    visibility: hidden;
-}
-.candycane:hover #candycaneFeel {
-    visibility: visible;
-    position: relative;
-    bottom: -40px;
-} */
 /* END example */
 
 .projectsReveal {
@@ -307,7 +222,7 @@ button #getColorButton:focus {
            font-family: 'Fredericka the Great', cursive;
 }
             
-.paint-brush:hover .projectsReveal {
+.social-button.paint-brush:hover .projectsReveal {
  visibility: visible; 
 }
 
@@ -323,9 +238,9 @@ button #getColorButton:focus {
 
 
 
-.rounded-social-buttons .social-button.twitter {
+/* .rounded-social-buttons .social-button.twitter {
   background: #55acee;
-}
+} */
 
 .rounded-social-buttons .social-button.twitter:before {
   font-family: "FontAwesome";
@@ -557,7 +472,7 @@ font-size:110px;
     text-align: center;
     color: #fefefe;
     font-size: 1.2rem;
-    border-radius: 1.6875rem;
+    /* border-radius: 1.6875rem; */
     transition: all 0.5s ease;
 margin-top: 2.24rem;
 }
@@ -654,9 +569,9 @@ size: 20px;
 }
 
 .smText{
-        color: white;
-            font-family: 'Open Sans Condensed', sans-serif;
-            font-size:12px;
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size:12px;
     position: absolute;
     top: 1%;
     left: 30%;
