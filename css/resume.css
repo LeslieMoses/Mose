@@ -163,7 +163,7 @@ a:hover
 
 .projectsReveal {
          visibility: hidden;
-             color: #ff1d8e;
+             color: white;
            font-family: 'Fredericka the Great', cursive;
 }
             
@@ -173,11 +173,31 @@ a:hover
 
 .resumeReveal {
          visibility: hidden;
-             color: #ff1d8e;
-                font-family: 'Fredericka the Great', cursive;
+             color: white;
+            font-family: 'Fredericka the Great', cursive;
 }
             
 .id-card:hover .resumeReveal {
+ visibility: visible; 
+}
+
+.emailReveal {
+         visibility: hidden;
+             color: white;
+            font-family: 'Fredericka the Great', cursive;
+}
+            
+.mail:hover .emailReveal {
+ visibility: visible; 
+}
+
+.phoneReveal {
+         visibility: hidden;
+             color: white;
+            font-family: 'Fredericka the Great', cursive;
+}
+            
+.phone:hover .phoneReveal {
  visibility: visible; 
 }
 .copyright {

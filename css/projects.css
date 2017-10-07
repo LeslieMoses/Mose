@@ -57,6 +57,45 @@ H4 {
         margin-bottom: 1.9rem;
 }
 
+.projectsReveal {
+         visibility: hidden;
+             color: white;
+           font-family: 'Fredericka the Great', cursive;
+}
+            
+.social-button.paint-brush:hover .projectsReveal {
+ visibility: visible; 
+}
+
+.resumeReveal {
+         visibility: hidden;
+             color: white;
+            font-family: 'Fredericka the Great', cursive;
+}
+            
+.id-card:hover .resumeReveal {
+ visibility: visible; 
+}
+
+.emailReveal {
+         visibility: hidden;
+             color: white;
+            font-family: 'Fredericka the Great', cursive;
+}
+            
+.mail:hover .emailReveal {
+ visibility: visible; 
+}
+
+.phoneReveal {
+         visibility: hidden;
+             color: white;
+            font-family: 'Fredericka the Great', cursive;
+}
+            
+.phone:hover .phoneReveal {
+ visibility: visible; 
+}
 .copyright {
     font-family: 'Fredericka the Great', cursive;
     text-align: center;
@@ -381,7 +420,7 @@ button #getColorButton:focus {
     cursor: pointer;
     width: 2rem;
     height: 2rem;
-    border: 0.125rem solid white;
+    /* border: 0.125rem solid white; */
     padding: 0;
     text-decoration: none;
     text-align: center;
@@ -391,7 +430,7 @@ button #getColorButton:focus {
     line-height: 1.5em;
     border-radius: 1.6875rem;
     transition: all 0.5s ease;
-    margin-right: 0.25rem;
+    /* margin-right: 0.25rem; */
     margin-bottom: 0.25rem;
 }
 
@@ -401,7 +440,7 @@ button #getColorButton:focus {
   cursor: pointer;
   width: 2rem;
   height: 3rem;
-  border: 0.125rem solid transparent;
+   border: 0.125rem solid transparent; 
   padding: 0;
   text-decoration: none;
   text-align: center;
@@ -412,7 +451,7 @@ button #getColorButton:focus {
   border-radius: 1.6875rem;
   transition: all 0.5s ease;
   margin-right: 0.25rem;
-  margin-bottom: 0.25rem;
+  /* margin-bottom: 0.25rem; */
 }
 
 
@@ -440,16 +479,6 @@ button #getColorButton:focus {
     color: whitesmoke;
 }
 
-.rounded-social-buttons .social-button.fa-paint-brush {
-      background: white;
-}
-
-
-.rounded-social-buttons .social-button.paint-brush:hover, .rounded-social-buttons .social-button.fa-paint-brush:focus {
-  color: black;
-  background: white;
-  border-color: black;
-}
 
 .rounded-social-buttons .social-button.twitter {
   background: #55acee;
@@ -665,7 +694,7 @@ font-size:110px;
     cursor: pointer;
     width: 1.75rem;
     height: 1.75rem;
-    border: 0.1rem solid white;
+    /* border: 0.1rem solid white; */
     text-align: center;
     color: #fefefe;
     font-size: 1.2rem;
