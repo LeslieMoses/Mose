@@ -272,7 +272,7 @@ a:hover
 
 .timeline .timeline-item .timeline-icon img,
 .timeline .timeline-item .timeline-icon svg {
-  left: 14px;
+  left: 1px;
   position: relative;
   top: 11px;
   color: #ff1d8e;
