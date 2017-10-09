@@ -373,8 +373,8 @@ button {
     /* @extend .transition*/
     
     margin-top: 20px;
-    background-color: #FF4136;
-    border: 1px solid #FF4136;
+    /* background-color: #FF4136; */
+    /* border: 1px solid #FF4136; */
     line-height: 0;
     display: inline-block;
     box-sizing: border-box;
@@ -399,13 +399,12 @@ button #getColorButton:focus {
     color: white;
     background-color: #FF4136;
 }
-#backTop {
-    background: #ff1d8e;
-    color: white;
-    margin-top: 10px;
+ 
+ #backTop {
+     background: black; 
+    color: #ff1d8e;
     font-size: 17px;
     font-family: georgia;
-       
 }
 
 /* START SOCIAL */ 
@@ -741,9 +740,8 @@ margin-top: 2.24rem;
     max-width: 88%;
 }
  #backTop {
-    background: #ff1d8e;
-    color: white;
-    margin-top: 10px;
+     background: black; 
+    color: #ff1d8e;
     font-size: 17px;
     font-family: georgia;
 }
@@ -998,9 +996,9 @@ h3 {
     width: 45%;
 }
 
-#backTop {
-    background: #ff1d8e;
-    color: white;
+ #backTop {
+     background: black; 
+    color: #ff1d8e;
     font-size: 17px;
     font-family: georgia;
 }

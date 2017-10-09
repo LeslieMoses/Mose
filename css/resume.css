@@ -257,7 +257,6 @@ button #getColorButton:focus {
  #backTop {
      background: black; 
     color: #ff1d8e;
-    /* margin-top: 10px; */
     font-size: 17px;
     font-family: georgia;
 }
@@ -392,7 +391,7 @@ button #getColorButton:focus {
 }
 
 .portfolio-resume-wrapper {
-padding: 1rem;
+padding: 2rem;
     border: #777 1px solid;
     border-radius: 6px;
 }
@@ -600,8 +599,8 @@ margin-top: 2.24rem;
     max-width: 88%;
 }
  #backTop {
-     background: #ff1d8e;
-    color: white;
+    background: black;
+    color: #ff1d8e;
     margin-top: 10px;
     font-size: 17px;
     font-family: georgia;
