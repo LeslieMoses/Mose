@@ -209,6 +209,11 @@ a:hover
 
 
 /* START timeline */
+.bold{
+    color: white;
+    font-size: 23px;
+    font-family: 'Georgia';
+}
 
 .timeline .timeline-item::after, .timeline .timeline-item::before {
   clear: both;
