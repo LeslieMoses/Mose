@@ -60,7 +60,7 @@ H4 {
 .subtitle{
      font-size: 58px;
       text-align: center;
-       font-family: 'Georgia';
+      font-family: 'Georgia', serif;
        padding: 10px;
        margin: 0 20px;
        line-height: initial;
@@ -553,7 +553,7 @@ font-size:110px;
     color: white;
     font-size: 33px;
     text-align: center;
-    font-family: georgia;
+    font-family: 'Georgia', serif;
     margin-bottom: 22px;
     line-height: initial;
 }
