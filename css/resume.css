@@ -57,6 +57,16 @@ H4 {
         margin-bottom: 1.9rem;
 }
 
+.subtitle{
+    color: white;
+     font-size: 58px;
+      text-align: center;
+       font-family: georgia;
+       padding: 10px;
+       margin: 0 20px;
+       line-height: initial;
+}
+
 #develop{
 font-size:100px;
     line-height: 10px;
@@ -538,6 +548,15 @@ font-size:110px;
     max-width: 15%;
     height: 20%;
     margin-bottom: unset;
+}
+
+.subtitle {
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    font-family: georgia;
+    margin-bottom: 22px;
+    line-height: initial;
 }
 
 .rounded-social-buttons {

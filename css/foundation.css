@@ -1059,8 +1059,9 @@ pre {
     left: -16.66667%; }
   .large-offset-1 {
     margin-left: 8.33333%; }
+    /* 10-16-17 changed to make rez cols centered and take up the whole page */
   .large-3 {
-    width: 25%; }
+    width: 30%; }
   .large-push-3 {
     position: relative;
     left: 25%; }
