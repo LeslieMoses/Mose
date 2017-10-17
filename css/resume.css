@@ -514,8 +514,8 @@ font-size:110px;
 
  H4 {
     font-family: 'Georgia', serif;
-    line-height: 65px;
-    font-size: 70px;
+    line-height: 52px;
+    font-size: 72px;
     text-align: center;
     color: #ff1d8e;
     font-weight: bold;
@@ -551,7 +551,7 @@ font-size:110px;
 
 .subtitle {
     color: white;
-    font-size: 33px;
+    font-size: 38px;
     text-align: center;
     font-family: 'Georgia', serif;
     margin-bottom: 22px;
