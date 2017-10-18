@@ -49,6 +49,10 @@ H4 {
         /* margin-top: -100px; */
 
 }
+.plusSignHero{
+    font-size: 140px; 
+    color:#ff1d8e;
+}
 
 #develop{
 font-size:120px;
@@ -265,7 +269,7 @@ button #getColorButton:focus {
  visibility: visible; 
 }
 .copyright {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Georgia', serif;
     text-align: center;
     color:#ff1d8e;
 }
@@ -465,6 +469,10 @@ H4 {
     text-align: left;
     font-family: Fredericka the Great;
     font-weight: 400;
+}
+.plusSignHero {
+    font-size: 75px;
+    color: #ff1d8e;
 }
 
    .leslieTitle {

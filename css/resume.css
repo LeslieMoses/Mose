@@ -210,7 +210,7 @@ a:hover
  visibility: visible; 
 }
 .copyright {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Georgia', serif;
     text-align: center;
     color:#ff1d8e;
 }
@@ -342,8 +342,8 @@ button #getColorButton:focus {
    
 }
 
-a.rezStories{
-    font-size: 38px;
+a.rezStories {
+    font-size: 18px;
 }
 
  
