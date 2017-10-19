@@ -318,32 +318,34 @@ button #getColorButton:focus {
 
 
 .boldRezHed {
-    color: whitesmoke;
-   font-weight: bolder;
-   font-size: 25px; 
+    color: black;
+    font-weight: 800;
+    font-size: 25px;
+    font-family: sans-serif;
 }
 
 .fa-graduation-cap {
-    color:white;
+    color: black;
 }
 
 .bullet{
-    color:whitesmoke;
+    color: black;
 }
 
 .rezSubHed {
-   color: whitesmoke;
+   color: black;
    font-weight: bold;
    font-size:22px;
 }
 
 .rezDetails {
-    color: whitesmoke;
+    color: black;
    
 }
 
 a.rezStories {
     font-size: 18px;
+    color: black;
 }
 
  
@@ -399,30 +401,33 @@ a.rezStories {
 
 .portfolio-resume-spacing {
   margin-bottom: 2rem;
-  color: whitesmoke;
+  color: black;
 }
 
 .portfolio-resume-wrapper {
 padding: 2rem;
     border: #777 1px solid;
     border-radius: 6px;
+    background: whitesmoke;
+    color: black;
 }
 
 .portfolio-resume-headshot {
   margin-bottom: 1rem;
-  border-radius: 10%;
   max-width:55%;
+  border: black 5px solid;
 }
 
+
 .portfolio-resume-header {
-  text-transform: uppercase;
-  padding-bottom: 1rem;
-  border-bottom: 1px solid #e6e6e6;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #666;
     font-weight: normal;
-  margin-bottom: 1rem;
-font-family: 'monofett';
-color:white;
-font-size: 43px;
+    margin-bottom: 1rem;
+    font-family: impact;
+    color: black;
+    font-size: 43px;
 }
 
 
