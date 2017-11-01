@@ -80,6 +80,15 @@ img {
     margin-bottom: -45px;
 }
  
+#bluePic {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 15%;
+    height: 20%;
+    margin-bottom: unset;
+    margin-left: -18px;
+}
+
 .webImage{
     vertical-align: middle;
     max-width: 100%;
@@ -555,6 +564,7 @@ font-size:110px;
     max-width: 15%;
     height: 20%;
     margin-bottom: unset;
+    margin-left: -8px;
 }
 
 .subtitle {
