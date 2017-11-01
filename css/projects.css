@@ -48,7 +48,7 @@ font-size:80px;
     max-width: 15%;
     height: 20%;
     margin-bottom: unset;
-    margin-left: -13px;
+    margin-left: -3px;
 }
 
 H4 {
@@ -418,6 +418,8 @@ button #getColorButton:focus {
 
 .rounded-social-buttons {
   text-align: center;
+  
+  margin-top: -23px;
 }
 
 .rounded-social-buttons .social-button {

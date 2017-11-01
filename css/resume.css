@@ -80,7 +80,7 @@ img {
     margin-bottom: -45px;
 }
  
-#bluePic {
+img #bluePic {
     display: inline-block;
     vertical-align: middle;
     max-width: 15%;
