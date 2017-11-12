@@ -14,7 +14,7 @@ body {
     text-align: right;
     border: none;
     margin-top: 0px;
-        margin-bottom: -10px;
+        margin-bottom: -30px;
 }
 .x-callout:before {
     display: none;
@@ -74,10 +74,11 @@ font-size:100px;
 img {
     display: inline-block;
     vertical-align: middle;
-    max-width: 12%;
+    max-width: 10%;
     height: auto;
     -ms-interpolation-mode: bicubic;
-    margin-bottom: -45px;
+    /* margin-bottom: -45px; */
+        margin-left: -29px;
 }
  
 img #bluePic {
@@ -328,7 +329,7 @@ button #getColorButton:focus {
 
 .boldRezHed {
     color: black;
-    font-weight: 800;
+    font-weight: 600;
     font-size: 25px;
     font-family: sans-serif;
 }
@@ -344,7 +345,7 @@ button #getColorButton:focus {
 .rezSubHed {
    color: black;
    font-weight: bold;
-   font-size:22px;
+   font-size:19px;
 }
 
 .rezDetails {
@@ -414,17 +415,19 @@ a.rezStories {
 }
 
 .portfolio-resume-wrapper {
-padding: 2rem;
+    padding: .5rem;
     border: #777 1px solid;
     border-radius: 6px;
     background: whitesmoke;
     color: black;
+    margin-left: 1px;
 }
 
 .portfolio-resume-headshot {
   margin-bottom: 1rem;
   max-width:55%;
   border: black 5px solid;
+  margin-left: 50px;
 }
 
 
@@ -537,7 +540,8 @@ font-size:110px;
     color: #ff1d8e;
     font-weight: bold;
     margin-top: unset;
-    margin-bottom: 40px;
+    margin-top: -10px;
+    margin-bottom: -10px;
 }
 #develop {
     font-size: 42px;
