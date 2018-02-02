@@ -40,7 +40,7 @@ body {
 } 
 
 .mosesTitle {
-font-family:'Monofett', cursive; 
+font-family:'Georgia', cursive; 
 font-size:80px;
         text-align: center;
 }
@@ -278,6 +278,7 @@ button #getColorButton:focus {
     color: #ff1d8e;
     font-size: 17px;
     font-family: georgia;
+    text-align: center;
 }
 
 /* START SOCIAL */ 
@@ -644,6 +645,8 @@ margin-top: 2.24rem;
     margin-top: 10px;
     font-size: 17px;
     font-family: georgia;
+    text-align: center;
+    
 }
 .webImage{
     vertical-align: middle;
@@ -754,6 +757,8 @@ margin-top: 2.24rem;
     color: white;
     margin-top: 5px;
     font-family: georgia;
+    text-align: center;
+    
 }
         .small-12 {
             padding: 0px;
